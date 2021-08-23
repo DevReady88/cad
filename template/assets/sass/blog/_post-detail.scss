@@ -1,0 +1,206 @@
+/* =============== Post Detail =============== */
+
+.default-post-block.default-post-block-single {
+	margin-bottom: 34px;
+}
+
+/* post title */
+.cel-post-title-single {
+	margin: 0 0 16px 0;
+}
+
+
+/* tags on post detail */
+.tags-wrapper {
+	float: left;
+	width: 100%;
+	margin: 30px 0 40px 0;
+	font-size: 13px;
+	line-height: 20px;
+	a {
+		display: block;
+		float: left;
+		line-height: 20px;
+		padding: 8px 20px 8px 20px;
+		margin: 0 2px 2px 0;
+		@include rounded(3px);
+		&:hover {
+			text-decoration: none;
+			box-shadow: none;
+		}
+	}
+}
+
+
+/* author post name */
+.post-misc-author {
+	margin: 6px 0 16px 0;
+	float: left;
+	width: 100%;
+	i {
+		font-size: 16px;
+		position: relative;
+		top: 1px;
+		padding-right: 4px;
+	}
+}
+
+
+/* share article */
+.post-share {
+	margin: 0 0 20px 0;
+	display: inline-block;
+}
+.post-share-list.media-wrapper {
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 18px 0;
+	font-weight: normal;
+	li {
+		a {
+			width: 26px;
+			@include rounded(26px);
+		}
+	}
+}
+.sm-icon-facebook {
+	background-color: #3b5998;
+}
+.sm-icon-linkedin {
+	background-color: #4875b4;
+}
+.sm-icon-twitter {
+	background-color: #4497ff;
+}
+.sm-icon-stumbleupon {
+	background-color: #f4492e;
+}
+.sm-icon-reddit {
+	background-color: #ff421b;
+}
+.sm-icon-pinterest {
+	background-color: #bc1320;
+}
+.sm-icon-email {
+	background-color: #f5bf20;
+}
+
+.post-icons-top {
+	margin-top: 0;
+	.post-share {
+		margin: 0;
+		.post-share-list.media-wrapper {
+			margin: 0;
+		}
+	}	
+}
+@media only screen and (min-width: 991px) {
+	.post-icons-top {
+		margin-top: -24px;
+	}
+}
+
+/* about the author */
+.cel-author-meta-wrapper {
+	position: relative;
+	padding: 0;
+	margin: 20px 0 60px 0;
+}
+.am-avatar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.am-content {
+	padding: 0;
+}
+.am-title {
+	display: none;
+	margin: 0 0 18px 0;
+	font-size: 24px;
+	line-height: 32px;
+}
+.am-name {
+	margin: 0 0 8px 0;
+	display: block;
+}
+
+
+
+/* previous and next posts */
+.cel-post-navigation-grid {
+	padding: 18px 0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	.prev-posts {
+		position: relative;
+		text-align: left;
+		padding-left: 26px;
+		i {
+			position: absolute;
+			left: 2px;
+			top: 5px;
+		}
+	}
+	.next-posts {
+		position: relative;
+		text-align: right;
+		padding-right: 26px;
+		i {
+			position: absolute;
+			right: 2px;
+			top: 5px;
+		}
+	}
+}
+.cel-post-navigation-grid.cel-post-navigation-margins {
+	margin: 70px 0 60px 0;
+}
+
+@media only screen and (min-width: 991px) {
+	span.post-misc-dot {
+		display: inline-block;
+	}
+	.post-misc {
+		margin: 10px 0 44px 0;
+		span {
+			display: inline-block;
+			margin: 0 4px;
+		}
+	}
+	.blogpost-img {
+		margin: 30px 0 20px 0;
+	}
+	.am-avatar {
+		display: block;
+	}
+	.am-content {
+		padding: 0 0 0 90px;
+	}
+	.cel-post-navigation-grid.cel-post-navigation-margins {
+		margin: 72px 0 62px 0;
+	}
+}
+@media only screen and (min-width: 1249px) {
+	.am-title {
+		margin: 0 0 30px 0;
+	}
+	.cel-author-meta-wrapper {
+		margin: 20px 0 70px 0;
+	}
+	.cel-post-navigation-grid {
+		.prev-posts {
+			i {
+				top: 6px;
+			}
+		}
+		.next-posts {
+			i {
+				top: 6px;
+			}
+		}
+	}
+}

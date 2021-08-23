@@ -1,0 +1,6 @@
+
+
+// Animated Underline for Links
+@mixin animated-hover() {
+	background-image: linear-gradient( transparent calc(100% - 2px), $primary_skin 2px );
+}

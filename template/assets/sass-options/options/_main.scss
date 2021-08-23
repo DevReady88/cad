@@ -1,0 +1,148 @@
+
+/* ========= Main General Styles ========= */
+
+body {
+	background-color: $body_bg;
+	color: $primary_text;
+}
+a, 
+a:hover {
+	color: $primary_skin;
+}
+
+/* body cover used for page loader */
+.celestial-body-cover {
+	background-color: $body_bg;
+}
+
+
+
+/* =============== Text Selection =============== */
+::-moz-selection {
+	color: $white;
+	background: $primary_text; 
+}
+::selection {
+	color: $white;
+	background: $primary_text;
+}
+
+
+
+/* =============== Basic HTML Tags =============== */
+blockquote:before {
+	color: $primary_skin;
+}
+abbr, 
+acronym {
+	border-bottom-color: $light_tone;
+}
+pre,
+code {
+	color: $primary_text;
+	background-color: $lightest_tone;
+}
+
+
+
+/* =============== Placeholders Color =============== */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $stronger_tone;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $stronger_tone;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $stronger_tone;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $stronger_tone;
+}
+
+
+
+/* =============== Skin Specific Styles =============== */
+.skin-color {
+	color: $primary_skin;
+}
+.skin-background {
+	background-color: $primary_skin;
+}
+.skin-secondary-color {
+	color: $secondary_skin;
+}
+.skin-secondary-background {
+	background-color: $secondary_skin;
+}
+.cel-slide-box a.skin-color {
+	color: $primary_skin;
+}
+.bg-primary {
+	background-color: $primary_skin !important; /* value from bootstrap is defined with !important and can't be overwritten in another way */
+	color: $body_bg;
+	blockquote {
+		&::before {
+			color: $body_bg;
+		}
+		.blockquote-footer {
+			color: $body_bg;
+		}		
+	}
+}
+.btn-primary {
+	background-color: $primary_skin;
+    border-color: $primary_skin;
+}	
+
+
+
+/* =============== Custom List =============== */
+.cl-hborder {
+	li {
+		border-bottom-color: $light_tone;
+	}
+}
+
+
+
+/* =============== Search Page =============== */
+.sr-number {
+	background-color: $lightest_tone;
+}
+.search-block {
+	border-bottom-color: $light_tone;	
+}
+
+
+
+/* =============== Pagination =============== */
+.classic-pagination {
+	a:after {
+		background-color: $primary_skin;
+	}
+}
+.page-numbers {
+	li {
+		color: $stronger_tone;
+		border-color: $light_tone;
+		.current {
+			color: $primary_skin;
+		}
+		a {
+			color: $stronger_tone;
+			&:hover {
+				color: $primary_skin;
+				background-color: $lightest_tone;
+			}
+		}
+	}
+}
+
+
+
+/* =============== Page Loader =============== */
+.cel-loader-animation {
+	border-color: $light_tone;
+	border-top-color: $primary_skin;
+}
+

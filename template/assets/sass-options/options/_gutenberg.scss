@@ -1,0 +1,59 @@
+/* =============== Gutenberg & WordPress Elements =============== */
+
+/* WordPress */
+.wp-caption {
+	background-color: $body_bg;
+	border-color: $light_tone;
+}
+.gallery-caption {
+	background-color: $lightest_tone;
+}	
+.screen-reader-text:focus {
+	background-color: $lightest_tone;
+	color: $stronger_tone;
+}
+
+
+/* Gallery */
+.wp-block-gallery.columns-1 .blocks-gallery-item figcaption {
+    background: $body_bg;
+}
+.wp-block-gallery {
+	.blocks-gallery-item {
+		&:nth-child(1):last-child {
+			figcaption {
+   				background: $body_bg;
+			}
+		}	
+	}
+}
+
+
+/* Gutenberg Widgets */
+.wp-block-latest-posts,
+.wp-block-categories,
+.wp-block-archives {
+	li {
+		border-bottom-color: $light_tone;
+		&:before {
+			color: $medium_tone;		
+		}
+		a {
+			color: $primary_text;
+			&:hover {
+				color: $primary_skin;
+				background-color: $lightest_tone;			
+			}
+		}
+	}
+}
+
+.wp-block-categories {
+	ul.children { 
+		li:first-child {
+			border-top-color: $light_tone;
+		}
+	}
+}
+
+

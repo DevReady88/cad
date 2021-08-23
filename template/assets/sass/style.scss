@@ -1,0 +1,202 @@
+/*!
+Theme Name: Mediaconsult
+Theme URI: celestialthemes.com/demos/mediaconsult
+Description: A business oriented premium theme designed for site companies, personal use, portfolio showcases, blogging and ressource libraries.
+Author: Celestial Themes
+Author URI: https://celestialthemes.com
+License: Split License
+License URI: https://help.market.envato.com/hc/en-us/articles/202501064-What-is-Split-Licensing-and-the-GPL-
+Tags: threaded-comments, left-sidebar, right-sidebar, custom-colors, custom-menu, featured-images, full-width-template, custom-logo, editor-style, footer-widgets, sticky-post, theme-options,  translation-ready
+Text Domain: mediaconsult
+Domain Path: /languages/
+Version: 5.0.1
+*/
+
+/* =============== Table Of Contents =============== */
+/*
+	
+	1.0 BROWSER RESETS
+
+	1.1 THE GRID
+	
+	--------------------------------------------------
+	
+	
+	2.0 MARKUP DEFAULTS
+
+		2.1 Links
+		2.2 Basic Html Tags
+		2.3 Lists
+		2.4 Buttons & Forms
+		2.5 Responsive Images
+		2.6 WordPress Specific Styles
+		2.7 Tables
+
+	--------------------------------------------------
+		
+	3.0 ARCHITECTURE
+		
+		3.1 Top Right Section
+		3.2 Logo
+		3.3 Main Menu Mobile
+		3.4 Main Menu Desktop
+			3.4.1 CLassic Menu
+			3.4.2 Modern Menu
+		3.5 Header
+		3.6 Footer
+		3.7 Blog
+			3.7.1 Standard Blog
+			3.7.2 Comments Section
+		3.8 Pagination
+		3.9 Widgets
+		3.10 Search Page
+		3.11 Page Not Found
+		3.12 Password Protected Page
+		3.13 Language Switchers
+		3.14 Sitemap
+
+	--------------------------------------------------
+	
+	4.0 ELEMENTS
+		4.1 Helper Classes
+		4.2 Contact Form 7
+		4.3 Back To Top Button
+		4.4 Custom Elements
+		4.5 Bootstrap Elements
+		4.6 Gutenberg Elements
+		4.7 Elementor Elements
+
+	--------------------------------------------------
+	
+	5.0 PORTFOLIO
+	
+		5.1 Portfolio Filter
+		5.2 Portfolio General Styling
+		5.3 Portfolio Related Posts
+		5.4 Single Portfolio Post Detail
+		5.5 Portfolio Latest Works Shortcode
+
+	--------------------------------------------------
+	
+	6.0 SLIDERS
+		
+		6.1 Slick Carousel
+		6.2 Homepage Slider
+		6.3 Content Slider
+
+	--------------------------------------------------
+	
+	7.0 RESSOURCES
+	
+		7.1 Portfolio Filter
+		7.2 Ressources General Styling
+		7.3 Ressources Related Posts
+		7.4 Single Ressources Post Detail
+		7.5 Ressources Latest Posts Shortcode
+		7.6 Ressources Minimal Posts
+*/
+
+
+// Import Mixins
+@import "mixins/mixins";
+
+
+// Import Reset Style
+@import "reset/reset";
+
+
+// Usability
+@import "mediaconsult/usability";
+
+
+// Import Grid
+@import "mediaconsult/grid";
+
+
+// Import Main Theme Structure
+@import "mediaconsult/structure";
+
+
+// Import Buttons & Forms
+@import "forms/buttons-forms";
+@import "forms/select2";
+
+
+// Import Header
+@import "header/header";
+@import "header/logo";
+@import "header/top-info";
+@import "header/main-menu";
+
+
+// Import Footer
+@import "mediaconsult/footer";
+
+
+// Import Gutenberg & WordPress Specifics
+@import "mediaconsult/gutenberg";
+
+
+// Import Elementor Styles
+@import "elementor/elementor";
+
+
+// Import Standard Pages
+@import "mediaconsult/search";
+@import "mediaconsult/page-not-found";
+@import "mediaconsult/password-protected";
+@import "mediaconsult/language-switcher";
+@import "mediaconsult/sitemap";
+
+
+// Import Blog
+@import "blog/default-post-listing";
+@import "blog/3columns-post-listing";
+@import "blog/listing_small";
+@import "blog/post-detail";
+
+
+// Import Comments
+@import "mediaconsult/comments";
+
+
+// Import Pagination
+@import "mediaconsult/pagination";
+
+
+// Import Widgets
+@import "widgets/widgets";
+@import "widgets/widget_mailchimp";
+@import "widgets/widget_latest_posts";
+//@import "widgets/widget_ressources_posts";
+
+
+// Import Tables
+@import "mediaconsult/tables";
+
+
+// Import Elements
+@import "mediaconsult/elements";
+
+
+// Import Bootstrap Elements
+@import "mediaconsult/bootstrap";
+
+
+// Import Portfolio
+@import "portfolio/filter";
+@import "portfolio/default-post-listing";
+@import "portfolio/post-detail";
+@import "portfolio/related-posts";
+
+
+// Import Sliders
+@import "slider/slick";
+@import "slider/slick-homepage";
+@import "slider/slick-content";
+
+
+// Import Ressources
+@import "ressources/default-post-listing";
+@import "ressources/minimal-post-listing";
+@import "ressources/post-detail";

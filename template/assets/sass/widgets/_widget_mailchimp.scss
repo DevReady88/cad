@@ -1,0 +1,29 @@
+/* mailchimp widget */
+.mailchimp-text {
+	margin: -10px 0 12px 0;
+}
+.footer-grid-5 .mailchimp-submit {
+	margin-top: 2px;
+}
+@media only screen and (min-width: 767px) {
+	.sidebar .mailchimp-email {
+		width: 44.4%;
+	}	
+}
+@media only screen and (min-width: 1249px) {
+	.mailchimp-form-wrapper {
+		position: relative;
+	}
+	.sidebar .mailchimp-email,
+	.elementor-widget-container .mailchimp-email {
+		width: 100%;
+	}
+	.sidebar .mailchimp-submit,
+	.elementor-widget-container .mailchimp-submit {
+		margin: 0;
+		min-height: 42px;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}	
+}

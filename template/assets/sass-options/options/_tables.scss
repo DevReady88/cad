@@ -1,0 +1,21 @@
+
+/* =============== Tables =============== */
+
+table {
+	tbody {
+		td {
+			border-bottom-color: $light_tone;
+		}
+	}
+}
+table.skin-border {
+	border-color: $primary_skin;	
+}
+table.cel-data-label { 
+	tr {
+		border-bottom-color: $light_tone;
+	}
+	td {
+		border-bottom-color: $light_tone;
+	}
+}

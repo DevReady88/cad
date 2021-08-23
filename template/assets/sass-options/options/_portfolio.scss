@@ -1,0 +1,64 @@
+/* =============== PORTFOLIO =============== */
+
+
+/* Portfolio Filter */
+.port-filter-section {
+	ul {
+		border-color: $light_tone;
+		box-shadow: 0 6px 42px rgba(0, 0, 0, 0.01);
+		li {
+			border-bottom-color: $light_tone;
+			a {
+				color: $medium_tone;
+				&:hover {
+					color: $primary_skin;
+					background-color: $lightest_tone;					
+				}
+			}
+			a.pfilter-selected {
+				color: $primary_skin;
+				background-color: $lightest_tone;
+			}
+		}
+	}
+}
+@media only screen and (min-width: 991px) {
+	/* Portfolio Filter */
+	.port-filter-section {
+	ul {
+		li {
+			border-right-color: $light_tone;
+			}
+		}
+	}	
+}
+
+.mc-portfolio-img-url {
+	img {
+		border-color: $lighter_tone;
+		&:hover {
+			border-color: $medium_tone;	
+		}
+	}
+}
+
+.mc-portfolio-title {
+	a {
+		color: $primary_text;
+		&:hover {
+				color: $primary_skin;
+		}
+	}
+}
+.mc-port-category {
+	a {
+		color: $stronger_tone;
+		&:hover {
+			color: $primary_skin;
+		}
+	}
+}
+
+.related-portfolio-title {
+	color: $primary_skin;	
+}

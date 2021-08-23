@@ -1,0 +1,56 @@
+/* =============== 5.0 PORTFOLIO =============== */
+
+/* =============== 5.1 Portfolio Filter - 240px & Above =============== */
+
+/* Portfolio Filter */
+.port-filter-section {
+	ul {
+		list-style: none;
+		margin: 50px 0 60px 0;
+		display: block;
+		border-width: 1px;
+		border-style: solid;
+		@include rounded(2px);
+		li {
+			margin: 0;
+			padding: 0;
+			display: block;
+			border-bottom-width: 1px;
+			border-bottom-style: solid;
+			&:last-child {
+				border-bottom-width: 0;
+			}
+			a {
+				margin: 0;
+				display: block;
+				padding: 12px 30px;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 991px) {
+	.port-filter-section {
+		ul {
+			list-style: none;
+			margin: 50px 0 70px 0;
+			padding: 0;
+			display: inline-block;
+			li {
+				margin: 0;
+				float: left;
+				border-right-width: 1px;
+				border-right-style: solid;
+				border-bottom-width: 0;
+				a {
+					padding: 12px 30px;
+				}
+				&:last-child {
+					border-right-width: 0;
+				}
+			}
+		}
+	}
+}

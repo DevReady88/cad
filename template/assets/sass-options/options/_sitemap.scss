@@ -1,0 +1,10 @@
+.cel-sitemap-list.cel-sitemap-list-pages li a span {
+	@include animated-hover;
+}
+.cel-sitemap-pages {
+	.cel-sitemap-list {
+		li:before {
+			color: $stronger_tone;
+		}
+	}
+}

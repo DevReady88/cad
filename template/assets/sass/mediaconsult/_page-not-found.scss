@@ -1,0 +1,25 @@
+/* =============== 3.11 Page Not Found =============== */
+
+.pnf-image-wrapper {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+.pnf-title {
+	margin: 0 0 36px 0;
+}
+
+@media only screen and (min-width: 991px) {
+	
+	.pnf-title {
+		margin: 0 0 60px 0;
+	}	
+		
+}@media only screen and (min-width: 1249px) {
+	
+	.pnf-title {
+		margin: 0 0 80px 0;
+	}	
+		
+}

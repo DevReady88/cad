@@ -1,0 +1,48 @@
+/* =============== 3.10 Search Page =============== */
+
+.sr-number {
+	margin: 0 0 50px 0;
+	padding: 30px 40px;
+}
+.sr-form {
+	margin: 30px 0 30px 0;
+	h3 {
+		margin: 0 0 30px 0;
+	}
+}
+.search-block {
+	margin: 0;
+	padding: 40px 0;
+	float: left;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+@media only screen and (min-width: 1249px) {
+	.sr-form {
+		.search-form {
+			width: 48%;
+		}
+	}
+	.inner-content {
+		.sr-form {
+			.search-field {
+				width: 100%;
+			}
+		}
+	}
+}
+@media only screen and (min-width: 1441px) {
+	.sr-form {
+		.search-form {
+			width: 40%;
+		}
+	}
+	.no-sidebar {
+		.sr-form {
+			input[type="search"] {
+				width: 100%;
+			}
+		}
+	}
+}

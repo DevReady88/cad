@@ -1,0 +1,19 @@
+#poststuff .inside {
+	margin: 30px 0 10px 0;
+}
+.edit-post-meta-boxes-area .postbox>.inside {
+	border-bottom: 0 none;
+}
+#mediaconsult_page-parameters .inside label {
+	position: relative;
+	top: 18px;
+	padding-bottom: 6px;
+	display: inline-block;
+}
+.edit-post-meta-boxes-area .postbox,
+.edit-post-meta-boxes-area input,
+.edit-post-meta-boxes-area textarea {
+	border: 1px solid #e2e4e7;
+	box-shadow: none;
+	padding: 4px 8px;
+}

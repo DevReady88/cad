@@ -1,0 +1,82 @@
+/* =============== 3.8 Pagination =============== */
+
+.classic-pagination {
+	margin: 10px 0 0 0;
+	a {
+		margin-right: 12px;
+		display: inline;
+		position: relative;
+		overflow: hidden;
+		&:after {
+			content: "";
+			position: absolute;
+			z-index: -1;
+			left: 0;
+			right: 100%;
+			bottom: -1px;
+			height: 2px;
+			transition-property: left right;
+			transition-duration: 0.4s;
+			transition-timing-function: ease-out;
+		}
+		&:hover {
+			&:after {
+				right: 0;
+			}
+		}
+		&:focus {
+			&:after {
+				right: 0;
+			}
+		}
+		&:active {
+			&:after {
+				right: 0;
+			}
+		}
+	}
+}
+.pagination-search {
+	margin: 30px 0 10px 0;
+	float: left;
+	width: 100%;
+}
+.page-numbers {
+	margin: 0;
+	list-style: none;
+	li {
+		margin: 0;
+		list-style: none;
+		float: left;
+		margin: 0 0 0 -1px;
+		font-size: 11px;
+		line-height: 17px;
+		border-width: 1px;
+		border-style: solid;
+		.page-numbers {
+			padding: 13px 0 12px 0;
+			width: 50px;
+			text-align: center;
+			display: block;
+		}
+		&:first-child {
+			margin: 0;
+		}
+		a {
+			display: block;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+.cel-pages {
+	display: none;
+}
+
+/* portfolio pagination */
+.portfolio-pagination {
+	margin: 40px 0 70px 0;
+	float: left;
+	width: 100%;
+}

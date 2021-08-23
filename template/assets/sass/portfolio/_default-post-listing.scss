@@ -1,0 +1,35 @@
+/* =============== 5.2 Portfolio General Styling - 240px & Above =============== */
+
+/* Default Portfolio 2/3 Columns */
+.mc-portfolio-block {
+	position: relative;
+	margin: 12px 0;
+	.attachment-post-thumbnail {
+		display: block;
+	}
+}
+.mc-portfolio-info {
+	margin: 14px 0 0 0;
+}
+.mc-portfolio-title {
+	font-size: 20px;
+	line-height: 28px;
+	a {
+		display: inline-block;
+		padding: 4px 0;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+.mc-port-category {
+	margin: 4px 0 0 0;
+}
+.mc-portfolio-img-url {
+	img {
+		border-width: 5px;
+		border-style: solid;
+		transition: border 0.5s;
+		box-shadow: 0 18px 82px rgba(0, 0, 0, 0.06);
+	}
+}

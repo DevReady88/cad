@@ -1,0 +1,394 @@
+
+/* =============== ELEMENTS =============== */
+
+
+/* contact form 7 */
+div.wpcf7-validation-errors, 
+div.wpcf7-acceptance-missing {
+	background-color: $warning_color;
+}
+div.wpcf7-mail-sent-ng, 
+div.wpcf7-aborted {
+	background-color: $error_color;
+}
+div.wpcf7-mail-sent-ok {
+	background-color: $success_color;
+}
+
+
+/* lines */
+.line-separator,
+.thick-line-separator,
+.thin-line-separator {
+	background-color: $lighter_tone;
+}
+
+
+/* scroll to top */
+#scrollUp {
+	background-color: $medium_tone;
+	color: $white;
+	&:hover {
+		background-color: $primary_skin;
+		color: $white;		
+	}
+}
+
+
+/* animated underline */
+.cel-underline span {
+	@include animated-hover;
+}
+
+
+/* service block */
+.sb-icon {
+	color: $primary_skin;	
+}
+.service-block {
+	.sb-tagline {
+		color: $stronger_tone;
+	}
+}
+
+
+/* service title */
+.st-title {
+	color: $primary_skin;
+}
+
+
+/* social media icons */
+.media-icon a {
+	color: $white;
+	&:hover {
+		color: $white;
+	}
+}
+
+
+/* hover image effect */
+.imgp-icon {
+	background-color: $primary_skin;
+	color: $white;
+}
+
+
+/* Document Info */
+.document-info {
+	background-color: $primary_skin;
+	border-bottom-color: $light_tone;
+	.di-icon {
+		i {
+			color: $white;
+		}
+	}	
+	
+	&:hover {
+		background-color: $primary_text;
+		.di-icon {
+			i {
+				//color: $primary_text;
+				color: $white;
+			}
+		}
+	}
+	.di-content {
+		border-left-color: rgba(255, 255, 255, 0.2);
+		.di-title,
+		.di-small-title {
+			a {
+				color: $white;
+			}
+		}
+		.di-desc {
+			color: $white;
+		}		
+	}
+}
+
+
+/* Google Maps */
+.google-map-wrapper {
+	border-color: $lighter_tone;
+}
+
+
+/* Tagline */
+.st-tagline {
+	color: $stronger_tone;
+}
+
+
+/* Icon Badge */
+.icon-badge {
+	color: $white;
+	background-color: $medium_tone;
+}
+
+
+/* Team Member */
+.tm-position {
+	color: $stronger_tone;
+}
+.tm-email {
+	a {
+		color: $primary_text;	
+		&:hover {
+			color: $primary_skin;
+		}
+	}
+}
+.tm-email a {
+	color: $primary_text;	
+}
+.tm-email a:hover {
+	color: $primary_skin;	
+}
+.team-detail-wrapper {
+	background: $body_bg;
+}	
+.tm-social-media {
+	li a {
+		color: $white;
+		&:hover {
+			color: $white;
+		}
+	}
+}
+
+
+.mfp-close-btn-in {
+	button.mfp-close {
+		color: $stronger_tone;
+		&:hover {
+			color: $medium_tone;
+			background-color: transparent;
+		}
+	}
+}
+
+
+/* Testimonials */
+.testimonial-position {
+	color: $stronger_tone;
+}
+
+
+/* Section Title */
+.cel-section-title {
+	border-bottom-color: $lighter_tone;
+}
+.cel-section-title:before {
+    color: $medium_tone;
+}
+
+
+/* How To Block */
+.howto-block.howto-border-bottom {
+	border-bottom-color: $light_tone;	
+}
+
+
+/* Service Highlight */
+.cel-service-highlight {
+	.serh-title-wrapper	{
+		background-color: $stronger_tone;
+		color: $white;
+		box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+	}
+}
+
+
+/* =============== Content Carousel =============== */
+.slick-prev,
+.slick-next {
+	background-color: $white;
+	color: $primary_skin;
+	&:hover {
+		background-color: $primary_skin;
+		color: $white;		
+	}
+}
+
+.slick-dots {
+	li {
+		button {
+			border-color: $white;
+		}
+	}
+	li.slick-active {
+		button {
+			background-color: $white;
+		}
+	}
+}
+.slick-dots-outside {
+	.slick-dots {
+		li {
+			button {
+				border-color: $medium_tone;
+			}
+		}
+		li.slick-active {
+			button {
+				background-color: $medium_tone;
+			}
+		}		
+	}
+}
+
+
+
+/* =============== Homepage Slider =============== */
+.cel-homepage-slider-empty {
+	color: $white;
+}
+.cel-slider-parent {
+	border-color: $light_tone;
+}
+.slider-post-date {
+	background-color: $lighter_tone;
+}
+@media only screen and (min-width: 991px) {
+	.cel-posts-slider-content {
+		color: $white;
+		background-color: $primary_skin;
+	}
+	.slider-post-date {
+		background-color: $white;
+		color: $primary_skin;
+	}
+	.slider-post-title {
+		a {
+			color: $white;
+			&:hover {
+				color: $white;
+			}
+		}
+	}	
+}
+
+
+
+/* =============== Featured Latest Posts =============== */
+
+.cel-slick-inner-nav {
+	h5.cel-slick-nav-title {
+		border-color: $light_tone;
+		color: $primary_skin;
+		&:hover {
+			color: $primary_skin;
+		}
+	}
+	
+	h5.cel-slick-nav-title.is-active {
+		background-color: $primary_skin;
+		border-color: $primary_skin;
+		color: $white;
+		&:hover {
+			color: $white;
+		}		
+	}
+}
+.cel-slick-nav-more {
+	a {
+		color: $primary_skin;
+		border-color: $light_tone;
+		&:hover {
+			color: $primary_skin;
+		}
+	}
+}
+
+.featured-post-date {
+	color: $white;
+	a {
+		color: $white;
+		&:before {
+			background-color: $medium_tone;
+		}
+		&:hover {
+			color: $white;
+		}
+	}
+	
+}
+
+
+
+/* =============== History =============== */
+.cel-history-title {
+	color: $primary_skin;
+}
+@media only screen and (min-width: 767px) {
+	.cel-history-block {	
+		&:before {
+			background-color: $lighter_tone;
+		}
+	}	
+	.cel-history-content {
+		.cel-history-dot {
+			background-color: $lighter_tone;
+		}
+	}	
+}
+
+
+
+
+/* =============== Custom Quote =============== */
+.cel-quote-wrapper {
+	.cel-quote-name {
+		color: $stronger_tone;		
+	}
+}
+.cel-quote-name.badge {
+		background-color: $medium_tone;
+		color: $white;
+}
+
+
+
+
+/* =============== Page Share Wrapper =============== */
+.cel-page-share-wrapper {
+	.cps-main-list,
+	.cps-secondary-list {
+		li {
+			a {
+				color: $white;
+			}
+		}
+	}
+	.cps-open-close {
+		background-color: $primary_skin;
+		color: $white;
+	}
+}
+
+
+	
+	
+/* =============== Widget Banner =============== */
+.cel-widget-banner-wrapper {
+	border-bottom-color: $light_tone;
+}
+
+
+	
+
+/* =============== Lines =============== */
+.cel-title-separator {
+	background-color: $light_tone;
+}
+
+
+/* =============== Title Bar =============== */
+.cel-title-bar {
+	background-color: $lightest_tone;
+}
+
+
+
+

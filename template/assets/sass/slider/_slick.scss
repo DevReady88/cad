@@ -1,0 +1,277 @@
+
+/* =============== 6.0 SLIDERS =============== */
+/* =============== 6.1 Slick Carousel - 240px & Above =============== */
+
+.slick-slider {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+	-webkit-tap-highlight-color: transparent;
+	overflow: hidden;
+	.slick-track {
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.slick-list {
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+.slick-list {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	margin: 0;
+	padding: 0;
+	&:focus {
+		outline: none;
+	}
+}
+.slick-list.dragging {
+	cursor: pointer;
+	cursor: hand;
+}
+.slick-track {
+	position: relative;
+	left: 0;
+	top: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	&:before {
+		content: "";
+		display: table;
+	}
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+.slick-loading {
+	.slick-track {
+		visibility: hidden;
+	}
+	.slick-slide {
+		visibility: hidden;
+	}
+}
+.slick-slide {
+	float: left;
+	height: 100%;
+	min-height: 1px;
+	display: none;
+	img {
+		display: block;
+	}
+}
+[dir="rtl"] {
+	.slick-slide {
+		float: right;
+	}
+}
+.slick-slide.slick-loading {
+	img {
+		display: none;
+	}
+}
+.slick-slide.dragging {
+	img {
+		pointer-events: none;
+	}
+}
+.slick-initialized {
+	.slick-slide {
+		display: block;
+	}
+}
+.slick-vertical {
+	.slick-slide {
+		display: block;
+		height: auto;
+		border: 1px solid transparent;
+	}
+}
+.slick-arrow.slick-hidden {
+	display: none;
+}
+.cel-blogslider-parent {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+}
+.cel-slider-parent {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+}
+.cel-slider-featured-image {
+	z-index: 1;
+	position: relative;
+}
+
+/* Arrows */
+.slick-prev {
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	top: 50%;
+	margin-top: 0;
+	display: block;
+	width: 42px;
+	height: 42px;
+	padding: 0;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	cursor: pointer;
+	outline: none;
+	min-height: 30px;
+	left: -80px;
+	&:hover {
+		outline: none;
+	}
+	&:focus {
+		outline: none;
+	}
+	&:before {
+		@include font-awesome;
+		font-size: 18px;
+		content: "\f104";
+		padding-left: 0;
+	}
+}
+.slick-next {
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	top: 50%;
+	margin-top: 0;
+	display: block;
+	width: 42px;
+	height: 42px;
+	padding: 0;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	cursor: pointer;
+	outline: none;
+	min-height: 30px;
+	right: -80px;
+	&:hover {
+		outline: none;
+	}
+	&:focus {
+		outline: none;
+	}
+	&:before {
+		@include font-awesome;
+		font-size: 18px;
+		content: "\f105";
+		padding-left: 2px;
+	}
+}
+[dir='rtl'] {
+	.slick-prev {
+		left: auto;
+		&:before {
+			content: "\f105";
+			padding-right: 0;
+		}
+	}
+	.slick-next {
+		right: auto;
+		&:before {
+			content: "\f104";
+			padding-right: 0;
+		}
+	}
+}
+
+
+/* Dots */
+.slick-dots {
+	width: 100%;
+	display: block;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	position: absolute;
+	bottom: 30px;
+	li {
+		margin: 0 1px;
+		padding: 0;
+		display: inline-block;
+		button {
+			font-size: 0;
+			line-height: 0;
+			padding: 0;
+			min-height: 1px;
+			width: 14px;
+			height: 14px;
+			background-color: transparent;
+			border-width: 2px;
+			border-style: solid;
+			@include rounded(20px);
+			opacity: 0.7;
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+	li.slick-active {
+		button {
+			opacity: 1;
+		}
+	}
+}
+.sidebar {
+	.celestial-slick-parent {
+		width: 100%;
+	}
+	.testimonial-block {
+		>p {
+			display: none;
+		}
+	}
+	.tb-name-wrapper {
+		>p {
+			display: none;
+		}
+	}
+}
+.slick-left-dots {
+	.slick-dots {
+		left: 30px;
+		width: auto;
+	}
+}
+.slick-right-dots {
+	.slick-dots {
+		right: 30px;
+		width: auto;
+	}
+}
+.slick-dots-outside {
+	.slick-dots {
+		bottom: -50px;
+	}
+}
+
+
+

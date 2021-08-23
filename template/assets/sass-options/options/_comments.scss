@@ -1,0 +1,26 @@
+
+/* =============== Comments Section =============== */
+
+h3.comment-reply-title,
+.comments-title {
+	color: $primary_skin;
+}
+.comment-metadata {
+	a {
+		color: $stronger_tone;
+		&:hover {
+			color: $primary_text;
+		}
+	}
+}
+.comment-body {
+	border-bottom-color: $light_tone;		
+}
+.comment-reply-link {
+	background-color: $medium_tone;
+	color: $white;
+	&:hover {
+		background-color: $primary_skin;
+		color: $white;		
+	}
+}

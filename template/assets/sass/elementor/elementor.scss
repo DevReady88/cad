@@ -1,0 +1,29 @@
+.elementor-container {
+
+	/* Icons List */	
+	.elementor-widget-icon-list {
+		.elementor-icon-list-item {
+			.elementor-icon-list-icon {
+				position: relative;
+				top: -1px;
+			}
+			.elementor-icon-list-text {
+				padding-left: 12px;
+			}
+		}
+	}
+
+	/* Buttons */
+	.elementor-button span {
+		margin-top: 2px;
+	}
+
+	/* Alert Box */
+	.elementor-alert {
+		button.elementor-alert-dismiss {
+			top: 0;
+		}
+	}
+	
+	
+}

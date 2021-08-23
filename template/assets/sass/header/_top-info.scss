@@ -1,0 +1,168 @@
+/* =============== 3.1 Top Right Section =============== */
+
+.header-topright-area {
+	position: relative;
+}
+.topright-section-wrapper {
+	float: left; 
+	width: 100%;
+	margin: 20px 0 20px 0;
+	.media-wrapper {
+		float: left;
+		margin: 18px 0 0 0;
+		li:last-child {
+			margin-right: 0;
+		}
+	}
+}
+.topright-section {
+	@include small-secondary;
+	float: left;
+	width: 100%;
+	@include rounded(2px);
+	border-width: 1px;
+	border-style: solid;
+	a {
+		box-shadow: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	>div {
+		width: 100%;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		&:last-child {
+			border-right-width: 0;
+			border-bottom-width: 0;
+		}
+	}
+	.tr-phone,
+	.tr-email {
+		float: left;
+		padding: 11px 30px 10px 30px;
+		i {
+			font-size: 16px;
+			position: relative;
+			top: 2px;
+			margin-right: 6px;
+			display: none;
+		}	
+	}	
+}
+
+@media only screen and (min-width: 991px) {
+	.topright-section-wrapper {
+		position: absolute;
+		top: 56px;
+		right: 0;
+		margin: 0;
+		.topright-section {
+			float: right;
+			width: auto;
+			>div {
+				width: auto;
+				border-bottom-width: 0;
+				border-right-width: 1px;
+				border-right-style: solid;
+				&:last-child {
+					border-right-width: 0;
+				}				
+			}
+			.tr-email,
+			.tr-phone {
+				padding: 11px 20px 10px 20px;
+			}
+		}
+		.media-wrapper {
+			position: absolute;
+			top: 46px;
+			right: 0;
+			li:last-child {
+				margin-right: 0;
+			}
+		}		
+	}
+
+	.topright-section-wpml {
+		top: 64px;
+	}
+}
+@media only screen and (min-width: 1249px) {
+	.topright-section-wrapper {
+		width: auto;
+		float: right;
+		.topright-section {
+			float: left;
+			.tr-email,
+			.tr-phone {
+				padding: 11px 30px 10px 30px;
+			}			
+		}
+		.media-wrapper {
+			float: left;
+			margin: 10px 0 0 16px;
+			position: static;
+			li:last-child {
+				margin-right: 0;
+			}
+		}		
+	}	
+}
+
+.header-text-presentation {
+	margin: 0 0 10px 0;
+}
+.header-top-search {
+	margin: 18px 0 10px 0;
+	.search-submit {
+		position: absolute;
+		top: 1px;
+		right: 4px;
+		
+		padding: 11px 14px 0 14px;
+		font-size: 0px;
+		min-height: 40px;
+		&:before {
+			@include icon-moon();
+			font-size: 16px;
+			line-height: 16px;
+			content: "\eb2d";
+		}
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	.header-text-presentation {
+		margin: 0 0 14px 0;
+	}
+	.header-top-search {
+		margin: 14px 0 10px 0;
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	.topright-section-search-wrapper {
+		margin-top: 56px;
+	}
+	.header-text-presentation {
+		margin: -34px 0 4px 0;
+	}
+	.header-top-search {
+		margin: 10px 0 0 0;
+	}
+}
+
+@media only screen and (min-width: 1249px) {
+
+	.header-text-presentation {
+		margin: -10px 0 0 0;
+		padding: 12px 0 12px 32px;
+		width: 84%;
+		border-left-width: 1px;
+		border-left-style: solid;
+	}
+	.header-top-search {
+		margin: -3px 0 0 0;
+	}
+}

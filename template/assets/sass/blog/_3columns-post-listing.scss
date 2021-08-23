@@ -1,0 +1,42 @@
+.col3-post-block {
+	margin-bottom: 88px;
+	.col3-blog-img {
+		margin: 0 0 23px 0;
+		height: 182px;
+		width: 100%;
+		position: relative;
+		display: block;
+		.res-image {
+			@include rounded(2px);
+			@include background-cover();
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			background-repeat: no-repeat;
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+	.post-cols-date {
+		margin: 0 0 19px 0;
+		display: block;
+		transition: background 0.4s;
+		a {
+			@include small-uppercase();
+			@include small-uppercase-bg();
+		}
+	}
+	.cel-post-title {
+		font-size: 22px;
+		line-height: 30px;
+	}
+}
+@media only screen and (min-width: 991px) {
+	.col3-post-block {
+		margin-bottom: 64px;
+	}
+}

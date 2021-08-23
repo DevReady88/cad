@@ -1,0 +1,373 @@
+/* =============== 1.0 BROWSER RESETS =============== */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+/* ========= 2.0 MARKUP DEFAULTS ========= */
+
+/* ========= 2.1 Links ========= */
+
+a {
+	transition: all 0.4s;
+		&:after, &:before {
+		transition: all 0.4s;
+		}
+	span {
+	transition: all 0.4s;
+		&:after, &:before {
+		  transition: all 0.4s;
+		}
+	}
+	input {
+	transition: all 0.4s;
+		&:after, &:before {
+			transition: all 0.4s;
+		}
+	}
+	button {
+	transition: all 0.4s;
+	&:after, &:before {
+	  transition: all 0.4s;
+	}
+	}
+	.btn {
+	transition: all 0.4s;
+		&:after, &:before {
+			transition: all 0.4s;
+		}
+	}
+	outline: 0;
+	text-decoration: none;
+		&:hover, &:active, &:focus {
+			outline: 0;
+			text-decoration: none;
+		}
+	&:hover, &[rel=author]:hover {
+		text-decoration: none;
+	}
+}
+
+
+
+/* ========= 2.2 Basic Html Tags - 240px & Above ========= */
+body {
+	@include body-font-family;
+	font-style: normal;
+	font-weight: 500;
+}
+
+@media only screen and (min-width: 1249px) {
+	body {
+		font-size: 17px;
+		line-height: 27px;
+	}
+}
+
+address {
+	margin: 6px 0;
+	font-style: italic;
+}
+
+em {
+	font-style: italic;
+}
+
+article, 
+aside, 
+details, 
+figcaption, 
+figure, 
+footer, 
+header,
+main,
+menu, 
+nav, 
+section, 
+summary {
+	display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+strong {
+	font-weight: bold;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+abbr, 
+acronym {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	cursor: help;
+	text-decoration: none;
+}
+
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+strike, del {
+	text-decoration: line-through;
+}
+embed,
+iframe,
+object {
+    max-width: 100%;
+}
+
+
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	@include body-font-family;
+	font-style: normal;
+	font-weight: 500;
+}
+h1 {
+	font-size: 36px;
+	line-height: 46px;
+}
+h2 {
+	font-size: 32px;
+	line-height: 42px;
+}
+h3 {
+	font-size: 28px;
+	line-height: 38px;
+}
+h4 {
+	font-size: 22px;
+	line-height: 32px;
+	letter-spacing: -0.2px;
+}
+h5 {
+	font-size: 20px;
+	line-height: 30px;
+}
+h6 {
+	font-size: 18px;
+	line-height: 27px;
+}
+
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
+	font-size: inherit;
+}
+
+@media only screen and (min-width: 1249px) {
+	h1 {
+		font-size: 36px;
+		line-height: 46px;
+	}
+	h2 {
+		font-size: 32px;
+		line-height: 42px;
+	}
+	h3 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+	h4 {
+		font-size: 24px;
+		line-height: 34px;
+	}
+	h5 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	h6 {
+		font-size: 18px;
+		line-height: 27px;
+	}
+}
+
+
+/* Paragraphs */
+p {
+	padding: 10px 0;
+	&:empty {
+		display: none;
+	}
+}
+
+
+/* Blockquotes */
+blockquote {
+	@include body-font-family;	
+	clear: both;
+	position: relative;
+	padding: 14px 0 14px 48px;
+	font-size: 20px;
+	line-height: 30px;
+	background: transparent;
+	margin: 0 0 20px 0;
+	&:before {
+		content: "”";
+		position: absolute;
+		top: 20px;
+		left: 0;
+		font-size: 60px;
+		line-height: 60px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		font-family: 'Times New Roman', 'Georgia', serif;
+		font-weight: bold;
+	}
+	cite {
+		display: block;
+		margin-top: 4px;
+		@include small-secondary;
+	}
+	p:last-of-type {
+		padding-bottom: 0;
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	blockquote {
+	padding: 14px 0 14px 68px;
+		&:before {
+		  font-size: 80px;
+		  line-height: 80px;
+		}
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	blockquote {
+	padding: 18px 0 18px 94px;
+		&:before {
+			left: 30px;
+		}
+	}
+}
+
+
+
+/* Pre, Code & other special tags */
+code, kbd, tt, var, samp {
+	font-size: 14px;
+	line-height: 28px;
+	font-family: Consolas, "Monaco", Courier, "Courier New", monospace;
+}
+pre {
+	font-size: 14px;
+	line-height: 28px;
+	font-family: Consolas, "Monaco", Courier, "Courier New", monospace;
+	clear: both;
+	display: block;
+	margin: 30px 0;
+	overflow: auto;
+	padding: 24px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+code {
+	font-size: 14px;
+	padding: 3px 10px;
+	position: relative;
+	top: -1px;
+	@include rounded(2px);
+}
+@media only screen and (min-width: 767px) {
+	pre {
+		padding: 24px 40px;
+	}
+}
+
+
+/* Unordered & Ordered Lists */
+ul, ol {
+	margin: 4px 0 12px 0;
+}
+ul ul, ul ol, ol ul, ol ol {
+	margin-bottom: 0;
+}
+ul li, ol li {
+	margin: 9px 0 0 20px;
+}
+ul li li, ol li li {
+	margin-left: 30px;
+}
+ul { 
+	list-style: disc outside;
+}
+ol {
+	list-style: decimal outside;
+}
+
+
+/* Definition Lists */
+dl {
+	margin: 10px 0 10px 0;
+}
+dl dt {
+	margin: 10px 0 0 0;
+	font-weight: bold;
+	text-decoration: underline;
+}
+dl dd {
+	margin: 10px 0 10px 0;
+	padding: 0;
+	line-height: 26px;
+}
+
+
+/* Responsive Images */
+body img {
+	max-width: 100%;
+}
+
+img {
+	-ms-interpolation-mode: bicubic;
+}
+img.size-full, 
+img.size-large, 
+img.header-image, 
+img.wp-post-image {
+	max-width: 100%;
+	height: auto;
+}
+img[class*="align"], 
+img[class*="wp-image-"], 
+img[class*="attachment-"] {
+	height: auto;
+}
+
+
+/* Fluid images for posts, comments, and widgets */
+.comment-content img, .entry-content img, .entry-summary img, .widget img {
+	max-width: 100%;
+}
+
+
+img:not([src]):not([srcset]) {
+    visibility: hidden;
+}

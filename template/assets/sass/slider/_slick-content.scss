@@ -1,0 +1,48 @@
+/* =============== 6.3 Content Slider =============== */
+
+.celestial-carousel-parent {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	.slick-slide {
+		margin: 0 26px;
+		margin: 0 26px;
+	}
+	.slick-list {
+		margin: 0 -26px;
+	}
+	.slick-slider {
+		overflow: hidden;
+	}
+	.slick-prev {
+		left: 14px;
+	}
+	.slick-next {
+		right: 12px;
+	}
+}
+.celestial-carousel-parent.slick-list {
+	margin: 0 -26px;
+}
+.slick-slide {
+	br {
+		display: none;
+	}
+}
+.slick-slide {
+	.cel-slide-box {
+		br {
+			display: block;
+		}
+	}
+}
+@media only screen and (min-width: 1441px) {
+	.celestial-carousel-parent {
+		.slick-prev {
+			left: 30px;
+		}
+		.slick-next {
+			right: 28px;
+		}
+	}
+}

@@ -1,0 +1,36 @@
+.cel-ressources-ul.crl-lines {
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+	li {
+		margin: 0;
+		padding: 12px 10px 13px 10px;
+		transition: background .4s;
+		border-top-width: 1px;
+		border-top-style: solid;
+		&:last-child {
+			border-bottom-width: 1px;
+			border-bottom-style: solid;
+		}		
+	}
+}
+.cel-ressources-minimal-block {
+	h4 {
+		font-size: 20px;
+		line-height: 30px;
+		position: relative;
+		margin-right: 40px;
+		.rmb-download-icon,
+		.rmb-download-format {
+			position: absolute;
+			top: 7px;
+			right: -40px;
+			font-size: 18px;
+			line-height: 18px;
+		}
+		.rmb-download-format {
+			@include small-uppercase();
+		}
+	}
+}
+

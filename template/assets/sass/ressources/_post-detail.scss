@@ -1,0 +1,41 @@
+.cel-ressource-detail-wrapper {
+	.crd-date,
+	.crd-format {
+		display: inline-block;
+		margin: 0 16px 0 0;
+		i {
+			font-size: 16px;
+			line-height: 16px;
+			margin: 0 10px 0 1px;
+			position: relative;
+			top: 1px;			
+		}
+	}
+	.crd-title {
+		margin: 13px 0 22px 0;
+		font-size: 32px;
+		line-height: 42px;		
+	}	
+	.crd-line {
+		margin: 23px 0 68px 0;
+	}
+	
+	.crd-share {
+		margin: 20px 0 0 0;
+		.post-share-list.media-wrapper {
+			margin-bottom: 10px;
+		}
+		.post-share {
+			margin-bottom: 16px;
+		}
+	}
+	.cel-ressource-download {
+		padding: 8px 22px;
+		border-width: 1px;
+		margin: 0 16px 0 0;
+	}
+
+}
+.cel-ressource-single-content {
+	margin: 22px 0 40px 0;
+}

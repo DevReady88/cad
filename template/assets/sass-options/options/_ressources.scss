@@ -1,0 +1,97 @@
+.cel-ressources-grid {
+	h2 {
+		color: $primary_text;
+		a {
+			color: $primary_text;
+		}
+	}
+	.cel-ressources-category {
+		color: $white;
+		a {
+			background-color: $primary_skin;
+			color: $white;
+		}
+	}
+	.cel-ressource-download {
+		border-color: $light-tone;
+		&:hover {
+			border-color: $primary_skin;
+		}
+	}
+	.ressource-share {
+		color: $primary_text;
+		&:hover {
+			color: $primary-skin;
+		}
+		i {
+			&:hover {
+				color: $primary-skin;
+			}			
+		}
+	}
+	.cel-ressources-share-content {
+		border-color: $lighter_tone;
+		background-color: $body_bg;
+		.cel-ressources-share-close {
+			color: $white;
+			border-color: $stronger_tone;
+			background-color: $stronger_tone;
+			&:hover {
+				color: $white;
+				border-color: $primary_skin;
+				background-color: $primary_skin;
+			}
+		}	
+	}
+	.ressource-date,
+	.ressource-format {
+		color: $stronger_tone;
+	}
+	
+}
+
+.cel-ressources-ul.crl-lines {
+	li {
+		border-top-color: $lighter_tone;
+		&:hover {
+			background-color: $lightest-tone;
+		}
+		&:last-child {
+			border-bottom-color: $lighter_tone;
+		}
+	}
+}
+
+.cel-ressources-minimal-block {
+	h4 {
+		color: $primary_skin;
+		a {
+			color: $primary_skin;			
+		}
+		&:hover {
+			color: $primary_skin;
+		}
+		.rmb-download-icon,
+		.rmb-download-format {
+			color: $medium_tone;
+			&:hover {
+				color: $primary_skin;
+			}
+		}
+		
+	}
+
+}
+
+.cel-ressource-detail-wrapper {
+	.cel-ressource-download {
+		border-color: $light_tone;
+		&:hover {
+			border-color: $primary_skin;
+		}		
+	}
+	.ressource-date,
+	.ressource-format {
+		color: $stronger_tone;
+	}	
+}

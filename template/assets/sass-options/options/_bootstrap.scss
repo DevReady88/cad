@@ -1,0 +1,174 @@
+
+/* =============== Bootstrap Elements =============== */
+
+
+
+/* =============== Breadcrumbs =============== */
+.breadcrumb {
+	background-color: $lightest_tone;
+	li {
+		a {
+			&:hover {
+				box-shadow: inset 0 -2px 0 $primary_skin;			
+			}
+		}
+	}
+}
+
+
+
+/* =============== Cards =============== */
+.card {
+	border-color: $light_tone;
+}
+.card-header {
+	border-bottom-color: $light_tone;
+}
+
+
+
+/* =============== Navs =============== */
+.nav-pills {
+	.nav-link.active,
+	.show > .nav-link {
+		background-color: $primary_skin;	
+	}
+}
+
+
+
+/* =============== List Groups =============== */	
+li.list-group-item {
+	border-bottom-color: $light_tone;
+}
+	
+
+
+/* =============== Navs =============== */
+.nav {
+	>li {
+		>a {
+			&:hover,
+			&:focus {
+				background-color: $lightest_tone;			
+			}
+		}
+	}
+	>li.disabled {
+		>a {
+			color: $stronger_tone;
+			&:hover,
+			&:focus {
+				color: $stronger_tone;		
+			}			
+		}
+	}
+	.open {
+		>a {
+			background-color: $lightest_tone;
+			border-color: $light_tone;
+			&:hover,
+			&:focus {
+				background-color: $lightest_tone;
+				border-color: $light_tone;	
+			}			
+		}
+	}
+	.nav-divider {
+		background-color: $light_tone;		
+	}
+}
+
+
+
+/* =============== Tabs =============== */
+ul.nav-tabs {
+	border-color: $light_tone;
+	>li {
+		border-right-color: $light_tone;
+		>a {
+			color: $primary_text;
+			background-color: $lightest_tone;
+			&:hover {
+				background-color: $lightest_tone;
+				color: $primary_text;				
+			}
+		}
+		a.active:before,
+		a:hover:before {
+			background-color: $primary_skin;			
+		}
+		a.active:after {
+			background-color: $body_bg;
+		}
+	}
+}
+
+.nav-tabs {
+	.nav-item.show .nav-link,
+	.nav-link.active {
+		color: $primary_skin;		
+	}
+	.nav-link {
+		&:hover,
+		&:focus {
+			background-color: $lightest_tone;
+		}		
+	}
+}
+
+.nav-tabs.nav-justified {
+	a.active {
+		border-color: $light_tone;
+		color: $primary_skin;
+		&:hover,
+		&:focus {
+			border-color: $light_tone;
+			color: $primary_skin;
+		}		
+	}
+}
+
+.tabs-left ul.nav-tabs,
+.tabs-right ul.nav-tabs,
+.tabs-top ul.nav-tabs,
+.tabs-bottom ul.nav-tabs {
+	>li {
+		border-bottom-color: $light_tone;		
+	}
+}
+
+
+
+/* =============== Toggle Content =============== */	
+.cel-toggle-title {
+	border-top-color: $light_tone;
+	border-bottom-color: $light_tone;
+	a {
+		color: $primary_text;		
+	}
+	a[aria-expanded="true"] {
+		background-color: $lightest_tone;	
+		color: $primary_skin;
+	}
+	a:before {
+		color: $primary_skin;
+	}
+}
+
+
+
+/* =============== Accordion =============== */
+.celestial-accordion-wrapper {
+	.card-header {
+		border-color: $light_tone;
+		border-bottom-color: $light_tone;
+		&:first-child {
+			background-color: $lightest_tone;
+		}
+	}	
+}
+.cel-accordion-content {
+	border-color: $light_tone;
+}
+

@@ -1,0 +1,272 @@
+
+/* =============== Header =============== */
+
+.ptw-border-left {
+	border-left-color: $lighter_tone;
+}
+.ptw-border-right {
+	border-right-color: $lighter_tone;
+}
+.ptw-border-top {
+	border-top-color: $lighter_tone;
+}
+.ptw-border-bottom {
+	border-bottom-color: $lighter_tone;
+}
+
+.ptw-border-skin {
+	border-color: $primary_skin;
+}
+@media only screen and (min-width: 767px) {
+	.ptw-background {
+		background-color: $lightest_tone;
+	}
+}
+.ptw-box-shadow {
+	box-shadow: 0 10px 62px rgba(0, 0, 0, 0.05);	
+}
+
+
+
+/* =============== Top Right Section =============== */
+.topright-section {
+	border-color: $light_tone;
+	color: $stronger_tone;
+	box-shadow: 0 6px 42px rgba(0, 0, 0, 0.01);
+	>div {
+		border-bottom-color: $light_tone;
+	}
+}
+.tr-phone,
+.tr-email {
+	i {
+		color: $stronger_tone;
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	.topright-section > div {
+		border-right-color: $light_tone;
+	}
+}
+
+@media only screen and (min-width: 1249px) {
+
+	.header-text-presentation {
+		border-left-color: $light_tone;
+	}
+}
+
+/* =============== Main Menu Mobile =============== */
+.main-menu-control {
+	color: $primary_text;
+	&:hover {
+		color: $primary_skin;		
+	}
+}
+
+
+.header-nav.mm-menu {
+	background-color: $body_bg;
+	color: $primary_text;
+	a {
+		color: $primary_text;
+		&:hover {
+			color: $primary_text;
+		}
+	}
+	ul {
+		li {
+			border-color: $light_tone;
+		}
+	}
+	.mm-title {
+		color: $primary_text;
+		&:hover {
+			color: $primary_text;
+		}		
+	}
+	.mm-listview { 
+		.mm-next:after {
+			color: $primary_text;
+		}
+		.mm-next:before {
+			border-color: $light_tone;			
+		}
+	}	
+}
+
+.mm-close:before {
+	color: $primary_skin;
+}
+.mm-menu {
+	.mm-listview > li .mm-next:after {
+		border-color: $primary_text;
+	}
+	.mm-btn {
+		&:before, 
+		&:after {
+			border-color: $primary_text;
+		}
+		&:hover:after,
+		&:hover:before {
+			color: $primary_text;			
+		}
+	}
+}
+.mm-navbars-top {
+	border-color: $light_tone;
+}
+.mm-menu.mm-shadow-page { 
+	border-right-color: $light_tone;	
+}
+
+
+
+
+/* =============== Main Menu Desktop =============== */
+.sf-menu {
+	li {
+		a {
+			color: $primary_text;
+			&:hover {
+				color: $primary_skin;
+			}
+		}
+		li {
+			color: $primary_text;
+			a {
+				color: $primary_text;
+			}
+		}
+	}
+	.sub-menu {
+		background-color: $body_bg;
+		border-color: $light_tone;
+		li {
+			border-bottom-color: $light_tone;
+			a {
+				&:hover {
+					background-color: $lightest_tone;
+				}
+			}
+		}
+	}
+	.children {
+		li {
+			a {
+				&:hover {
+					background-color: $lightest_tone;					
+				}
+			}
+		}
+	}
+}
+
+
+
+/* =============== Modern Main Menu Desktop =============== */
+.cel-modern-menu {
+	.header-nav {
+		border-top-color: $light_tone;
+		border-bottom-color: $light_tone;
+		border-bottom-color: $light_tone;
+	}
+	.sf-menu {
+		>li {
+			&:after {
+				background-color: $light_tone;
+			}
+			>a {
+				&:hover {
+					&:after {
+						background-color: $primary_skin;
+					}
+				}				
+			}
+		}
+		>li.sfHover {
+			>a {
+				&:after {
+					background-color: $primary_skin;
+				}			
+			}
+		}
+	}
+	
+}
+
+
+
+
+/* =============== Modern Alternate Main Menu Desktop =============== */
+.cel-modern-menu-alt {
+	.header-nav {
+		background-color: $primary_skin;
+		border-bottom-color: $lighter_tone;
+	}
+	.sf-menu {
+		>li {
+			&:after {
+				background-color: rgba(255, 255, 255, 0.3);
+			}			
+			>a {
+				color: $white;
+				&:hover {
+					color: $white;
+					&:after {
+						background-color: $primary_text;
+					}					
+				}
+			}
+			
+		}
+		
+		/* in case we don't have submenus */
+		ul {
+			>li {
+				&:after {
+					background-color: rgba(255, 255, 255, 0.3);
+				}			
+				>a {
+					color: $white;
+					&:hover {
+						color: $white;
+						&:after {
+							background-color: $primary_text;
+						}					
+					}
+				}
+
+			}			
+		}
+		>li.sfHover {
+			>a {
+				&:after {
+					background-color: $primary_text;
+				}				
+			}
+		}
+		>li.sfHover li a:after {
+			background-color: transparent;
+		}
+		
+		/* submenu */
+		li {
+			.sub-menu {
+				li {
+					a {
+						color: $primary_text;
+						&:hover {
+							color: $primary_skin;
+							background-color: $lightest_tone;
+						}
+					}
+				}
+			}		
+		}
+		
+		
+	} /* end of .sf-menu */
+}
+

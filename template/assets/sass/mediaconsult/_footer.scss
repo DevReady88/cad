@@ -1,0 +1,107 @@
+/* =============== 3.6 Footer =============== */
+
+.footer-separator {
+	.thick-line-separator {
+		margin: 0 0 40px 0;
+	}
+}
+.main-footer {
+	margin-bottom: 80px;
+}
+.footer-menu-list {
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style: none;
+	li {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		display: inline-block;
+		a {
+			display: inline;
+			position: relative;
+			&:after {
+				content: "";
+				position: absolute;
+				z-index: -1;
+				left: 0;
+				right: 100%;
+				bottom: -1px;
+				height: 2px;
+				transition-property: left right;
+				transition-duration: 0.4s;
+				transition-timing-function: ease-out;
+			}
+			&:hover {
+				&:after {
+					right: 0;
+				}
+			}
+			&:focus {
+				&:after {
+					right: 0;
+				}
+			}
+			&:active {
+				&:after {
+					right: 0;
+				}
+			}
+		}
+	}
+}
+.impressum {
+	text-align: left;
+	a {
+		padding-bottom: 2px;
+	}
+}
+@media only screen and (min-width: 991px) {
+	.footer-menu-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			margin: 0 16px;
+			padding: 0;
+			width: auto;
+			display: inline-block;
+			&:first-child {
+				margin-left: 0;
+				a {
+					padding-left: 0;
+				}
+			}
+			a {
+				padding: 2px 0;
+			}
+		}
+	}
+	.impressum {
+		text-align: right;
+	}
+	.footer-bottom-grid.fb-grid-reverse	{
+		.footer-menu-list {
+			text-align: right;
+			li {
+				&:first-child {
+					margin-left: 16px;
+				}
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+		.fbottom-right {
+			.impressum {
+				text-align: left;
+			}
+		}
+		.media-wrapper {
+			text-align: right;
+			li {
+				margin: 0 0 8px 8px;
+			}
+		}
+	}	
+}

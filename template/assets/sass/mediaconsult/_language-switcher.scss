@@ -1,0 +1,114 @@
+/* =============== 3.13 Language Switchers =============== */
+
+
+/* WPML */
+.lang-wrapper {
+	position: relative;
+	top: 1px;
+	img {
+		@include rounded(0px);
+	}
+	ul {
+		float: right;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 13px;
+		line-height: 20px;
+		li {
+			list-style: none;
+			font-size: 13px;
+			line-height: 20px;
+			float: left;
+			padding: 0 4px 0 4px;
+			margin: 0;
+			display: inline-block;
+			a {
+				opacity: 0.8;
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+#lang_sel {
+	a {
+		border: 0 none;
+		background: none;
+		&:visited {
+			border: 0 none;
+			background: none;
+		}
+	}
+	ul {
+		ul {
+			width: auto;
+		}
+	}
+	li {
+		width: auto;
+	}
+	width: auto;
+}
+#lang_sel_list {
+	a {
+		background: none;
+		&:visited {
+			background: none;
+		}
+	}
+	ul {
+		a {
+			background: none;
+		}
+	}
+	ul.lang_sel_list_vertical {
+		width: auto;
+	}
+	width: auto;
+	li {
+		display: block;
+		clear: both;
+	}
+}
+#lang_sel_list.lang_sel_list_vertical {
+	a {
+		border: 0 none;
+		&:visited {
+			border: 0 none;
+		}
+	}
+	ul {
+		border-top: 0 none;
+	}
+	li {
+		width: auto;
+	}
+	width: auto;
+}
+#lang_sel_list_list {
+	ul {
+		a {
+			&:visited {
+				background: none;
+			}
+		}
+	}
+}
+.wpml-ls-statics-footer {
+	ul {
+		li {
+			a {
+				padding: 7px 16px;
+				@include rounded(22px);
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+.wpml-ls-flag {
+	@include rounded(0px);
+}

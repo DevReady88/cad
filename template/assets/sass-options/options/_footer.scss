@@ -1,0 +1,9 @@
+
+/* =============== Footer =============== */
+.footer-menu-list { 
+	li { 
+		a:after {
+			background-color: $primary_skin;
+		}
+	}
+}	

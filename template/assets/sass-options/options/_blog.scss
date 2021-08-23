@@ -1,0 +1,126 @@
+
+/* =============== Default Blog Posts =============== */
+
+.cel-post-title {
+	a {
+		color: $primary_skin;		
+		&:hover {
+			color: $primary_skin;
+		}
+	}
+}
+
+.post-misc {
+	color: $stronger_tone;
+	a {
+		color: $stronger_tone;
+		&:hover {
+			color: $primary_text;
+		}
+	}
+}
+
+.post-misc-author {
+	i {
+		color: $medium_tone;
+	}
+}
+
+.blogpost-img {
+	border-color: $lighter_tone;
+	box-shadow: 0 18px 82px rgba(0, 0, 0, 0.06);
+	&:hover {
+		border-color: $stronger_tone;		
+	}
+}
+
+.single {
+	.blogpost-img:hover {
+		border-color: $lighter_tone;
+	}
+	.cel-post-title {
+		color: $primary_skin;	
+	}
+}
+
+.cel-post-navigation-grid {
+	border-top-color: $light_tone;
+	border-bottom-color: $light_tone;
+	.prev-posts,
+	.next-posts {
+		i {
+			color: $medium_tone;
+		}
+		a {
+			color: $primary_text;
+			&:hover {
+				color: $primary_skin;
+			}
+		}
+	}
+}
+
+
+
+
+/* =============== Columns Blog Posts =============== */
+.post-cols-date {
+	a {
+		background-color: $medium_tone;
+		color: $white;
+		&:hover {
+			background-color: $primary_skin;
+			color: $white;
+		}
+	}
+}
+.post-cols-author {
+	a {
+		color: $stronger_tone;
+	}
+	.post-misc-author i {
+		color: $stronger_tone;
+	}
+}
+
+
+
+
+/* =============== Small Listing Blog Posts =============== */
+.small-listing-permalink {
+	color: $stronger_tone;
+	&:hover {
+		color: $primary_skin;
+	}	
+}
+
+
+
+
+
+/* =============== Blog Post Detail =============== */
+
+/* tags */
+.tags-wrapper {
+	a {
+		color: $primary_text;
+		background-color: $lightest_tone;
+		&:hover {
+			color: $primary_skin;
+			background-color: $white;
+			box-shadow: 0 0 32px rgba(0, 0, 0, 0.08);		
+		}
+	}
+}
+
+/* social media sharing on posts */
+.post-share-list.media-wrapper {
+	li {
+		a {
+			color: $white;	
+		}
+	}
+}
+
+
+

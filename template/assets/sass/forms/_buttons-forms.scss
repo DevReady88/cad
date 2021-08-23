@@ -1,0 +1,405 @@
+/* ========= 2.4 Buttons & Forms ========= */
+
+/* Buttons */
+button,
+input[type="button"],
+input[type="submit"],
+.more-link,
+.celestial-button,
+input.search-submit,
+.wp-block-button .wp-block-button__link {
+	cursor: pointer;
+	border: 0 none;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 500;
+	margin: 0 2px 2px 0;
+	padding: 6px 26px 6px 26px;
+	display: inline-block;
+	z-index: 1;
+	outline: none;
+	position: relative;
+	transition: all 0.4s;
+	min-height: 42px;
+	@include rounded(2px);
+}
+.wp-block-button .wp-block-button__link {
+	padding-top: 8px;
+	
+}
+
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.more-link,
+.celestial-button
+input.search-submit {
+	&:hover {
+		text-decoration: none;
+	}
+	&:active {
+		text-decoration: none;
+		outline: none;
+	}
+	&:focus {
+		outline: none;
+	}	
+}
+
+button {
+	br {
+		display: none;
+	}
+}
+
+
+.more-link {
+	padding-top: 8px;
+}
+.celestial-button {
+	padding-top: 8px;
+	&:focus {
+		cursor: pointer;
+		border: 0 none;
+		margin: 0 2px 2px 0;
+		display: inline-block;
+		z-index: 1;
+		outline: none;
+		position: relative;
+		transition: all 0.4s;
+		min-height: 42px;
+		&:hover {
+			text-decoration: none;
+		}
+		&:active {
+			text-decoration: none;
+		}
+	}
+}
+.celestial-button-border {
+	border-width: 2px;
+	border-style: solid;
+}
+.celestial-button.celestial-button-border {
+	padding: 10px 38px 10px 38px;
+}
+
+
+
+/* Forms */
+input {
+	&:focus {
+		outline: none;
+	}
+	&:hover {
+		outline: none;
+	}
+	padding: 6px 17px 6px 17px;
+	margin: 4px 0 4px 0;
+	@include rounded(2px);
+}
+textarea {
+	&:focus {
+		outline: none;
+	}
+	&:hover {
+		outline: none;
+	}
+	padding: 6px 17px 6px 17px;
+	margin: 4px 0 4px 0;
+	margin: 0;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 15px;
+	line-height: 24px;
+	min-height: 42px;
+	width: 99.4%;
+	font-weight: 500;
+	height: 110px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	@include rounded(2px);
+}
+select {
+	padding: 6px 17px 6px 17px;
+	margin: 4px 0 4px 0;
+	margin: 0;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 15px;
+	line-height: 24px;
+	min-height: 42px;
+	width: 99.4%;
+	font-weight: 500;
+	width: 99.4%;
+	cursor: pointer;
+	height: 40px;
+	overflow: hidden;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 1px;
+	text-overflow: '';
+	outline: none;
+	@include rounded(2px);
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+fieldset {
+	margin: 0;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 15px;
+	line-height: 24px;
+	min-height: 42px;
+	width: 99.4%;
+	font-weight: 500;
+	@include rounded(2px);
+}
+	
+	
+
+.inner-content {
+	.cgrid-item {
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		input[type="number"],
+		input[type="tel"],
+		input[type="range"],
+		input[type="date"],
+		input[type="month"],
+		input[type="week"],
+		input[type="time"],
+		input[type="datetime"],
+		input[type="datetime-local"],
+		input[type="color"],
+		textarea,
+		select,
+		fieldset {
+			width: 99.4%;
+		}
+	}
+}
+.page-content-fullwidth {
+	.cgrid-item,
+	.elementor-widget-container .textwidget {
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		input[type="number"],
+		input[type="tel"],
+		input[type="range"],
+		input[type="date"],
+		input[type="month"],
+		input[type="week"],
+		input[type="time"],
+		input[type="datetime"],
+		input[type="datetime-local"],
+		input[type="color"],
+		textarea,
+		select,
+		fieldset {
+			width: 99.4%;
+		}
+	}
+}
+.comment-form {
+	.form-submit {
+		text-align: left;
+	}
+}
+
+
+
+/* additional link styling */
+.cel-link {
+	padding: 0 0 2px 0;
+	&:hover {
+		text-decoration: none;
+	}
+}
+.cel-link-alt {
+	padding: 0 0 2px 0;
+	&:hover {
+		text-decoration: none;
+	}
+}
+.classic-pagination {
+	a {
+		padding: 0 0 2px 0;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+.port-one-permalink {
+	padding: 0 0 2px 0;
+	&:hover {
+		text-decoration: none;
+	}
+}
+@media only screen and (min-width: 991px) {
+	.page-content-fullwidth {
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		input[type="number"],
+		input[type="tel"],
+		input[type="range"],
+		input[type="date"],
+		input[type="month"],
+		input[type="week"],
+		input[type="time"],
+		input[type="datetime"],
+		input[type="datetime-local"],
+		input[type="color"],
+		select,
+		fieldset {
+			width: 40%;
+		}
+		textarea {
+			width: 70%;
+			height: 130px;
+		}
+	}
+	.inner-content {
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		input[type="number"],
+		input[type="tel"],
+		input[type="range"],
+		input[type="date"],
+		input[type="month"],
+		input[type="week"],
+		input[type="time"],
+		input[type="datetime"],
+		input[type="datetime-local"],
+		input[type="color"],
+		select,
+		fieldset {
+			width: 46%;
+		}
+		textarea {
+			width: 90%;
+			height: 120px;
+		}
+	}
+}
+@media only screen and (min-width: 1249px) {
+	.page-content-fullwidth {
+		textarea {
+			width: 72%;
+			height: 150px;
+		}
+		.content-2col-grid {
+			.cgrid-item {
+				input[type="text"],
+				input[type="email"],
+				input[type="url"],
+				input[type="password"],
+				input[type="search"],
+				input[type="number"],
+				input[type="tel"],
+				input[type="range"],
+				input[type="date"],
+				input[type="month"],
+				input[type="week"],
+				input[type="time"],
+				input[type="datetime"],
+				input[type="datetime-local"],
+				input[type="color"],
+				select,
+				fieldset {
+					width: 60%;
+				}
+			}
+		}
+	}
+	.inner-content {
+		textarea {
+			width: 86%;
+			height: 140px;
+		}
+	}
+}
+@media only screen and (min-width: 1441px) {
+	.page-content-fullwidth {
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		input[type="number"],
+		input[type="tel"],
+		input[type="range"],
+		input[type="date"],
+		input[type="month"],
+		input[type="week"],
+		input[type="time"],
+		input[type="datetime"],
+		input[type="datetime-local"],
+		input[type="color"],
+		select,
+		fieldset {
+			width: 32%;
+		}
+		textarea {
+			width: 66%;
+			height: 140px;
+		}
+	}
+	.inner-content {
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		input[type="number"],
+		input[type="tel"],
+		input[type="range"],
+		input[type="date"],
+		input[type="month"],
+		input[type="week"],
+		input[type="time"],
+		input[type="datetime"],
+		input[type="datetime-local"],
+		input[type="color"],
+		select,
+		fieldset {
+			width: 40%;
+		}
+		textarea {
+			width: 80%;
+			height: 140px;
+		}
+	}
+}

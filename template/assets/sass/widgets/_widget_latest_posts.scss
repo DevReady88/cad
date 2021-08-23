@@ -1,0 +1,101 @@
+/* Custom Recents Posts widget */
+.recentposts-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	li {
+		margin: 26px 0;
+		padding: 0;
+		position: relative;
+		min-height: 60px;
+		&:last-child {
+			margin-bottom: 14px;
+		}
+	}
+}
+.recentposts-image {
+	position: absolute;
+	top: 4px;
+	left: 0;
+	img {
+		@include rounded(2px);
+	}
+}
+.recentposts-content {
+	margin: 0 0 0 80px;
+}
+.recentposts-title {
+	margin: 0 0 4px 0;
+	padding-bottom: 2px;
+	font-size: 17px;
+	line-height: 23px;
+	&:hover {
+		text-decoration: none;
+	}
+}
+.recentposts-date {
+	@include small-secondary;
+	margin: 6px 0 0 0;
+	display: block;
+}
+.recentposts-comments {
+	display: block;
+	font-size: 11px;
+	line-height: 17px;
+	margin: 6px 0 0 0;
+	a {
+		display: inline-block;
+	}
+}
+.recentposts-exceprt {
+	margin: 5px 0 12px 0;
+	display: none;
+}
+.recentposts-content.recentposts-content-noimg {
+	margin: 0;
+}
+
+
+/* alternate recent posts widget */
+.recentposts-list.text_only {
+	li {
+		margin: 0;
+		padding: 18px 0 18px 0;
+		margin: 0;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		&:last-child {
+			margin-bottom: 0;
+			border-bottom-width: 0;
+		}
+	}
+	.recentposts-image {
+		display: none;
+	}
+	.recentposts-content {
+		margin-left: 30px;
+		position: relative;
+		&:before {
+			@include icon-moon;
+			content: "\e99b";
+			font-size: 16px;
+			line-height: 16px;		
+			position: absolute;
+			left: -30px;
+			top: 6px;
+		}
+	}
+	.recentposts-title {
+		font-size: 17px;
+		line-height: 27px;
+	}
+	.recentposts-date {
+		@include small-secondary;
+		margin-top: -4px;
+		display: none;
+	}
+	.recentposts-exceprt {
+		display: none;
+	}
+}
+
