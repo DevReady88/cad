@@ -1,0 +1,101 @@
+extends layouts/_layout
+
+block vars
+    - bodyClass = "page-about"
+block content
+    +PageHead("О КОМПАНИИ")
+        li: span О компании
+
+    section.section.s-single-banner
+        .bg.is-video(data-label="СМОТРЕТЬ ИСТОРИЧЕСКОЕ ВИДЕО", data-video-id="VmRbLaBUxBo").js-modal-btn
+            img(src="images/single/about-bg.png")
+        .s-single-banner__box.text-center
+            .s-single-banner__content
+                .s-single-banner__title
+                    | НЕКОТОРЫЕ ФАКТЫ
+                    br
+                    |О КОМПАНИИ LIMAGRAIN
+                p
+                    | Мы – сельскохозяйственный кооператив французских фермеров и международное объединение по производству семян.
+                p
+                    | Работая над генетическим развитием растений, мы занимаемся селекцией, производством и продажей семян полевых и овощных культур.
+                p
+                    | На территории нашего головного предприятия во Франции мы стали 4-м производителем семян в мире и развернули свою деятельность в 57 странах, чтобы сотрудничать во имя прогресса сельского хозяйства везде и для всех.
+            a(href="#").ui-button-link.is-red: span УЗНАТЬ ВСЮ ИСТОРИЮ
+
+
+    section.section.s-grid-blocks.is-small-box
+        .container
+            .s-grid-blocks__grid
+
+                .col.s-grid-blocks-image 
+                    h3.s-grid-blocks__mobile-title ЛИМАГРЕН В РОССИИ 
+                    img(src="images/single/about-img1.png")
+                .col
+                    .s-grid-blocks__box
+                        h3.s-grid-blocks__title ЛИМАГРЕН В РОССИИ
+                        p
+                            | Семена Лимагрен более 10 лет назад завоевали доверие у клиентов и успешно продаются на рынке России. А с 2009 года в России, Краснодарский край, г. Краснодар, работает представительство компании Лимагрен – ООО «Лимагрен РУ»
+                        p
+                            |Региональные представители Лимагрен работают во всех основных регионах возделывания кукурузы и подсолнечника в России.
+
+                        a(href="#").ui-button-link.is-red.s-grid-blocks__button: span ПОДРОБНЕЕ
+
+                .col
+                    .s-grid-blocks__box
+                        h3.s-grid-blocks__title производство В РОССИИ
+                        p
+                            | Limagrain производит семена по единым стандартам качества, которые действуют по всей Европе.
+                        p
+                            | Двойное лабораторное тестирование позволяет с уверенностью говорить о качестве семян российского производства.
+                        a(href="#").ui-button-link.is-red.s-grid-blocks__button: span ПОДРОБНЕЕ
+
+                .col.s-grid-blocks-image 
+                    h3.s-grid-blocks__mobile-title производство В РОССИИ 
+                    img(src="images/single/about-img2.png")
+
+                .col.s-grid-blocks-image 
+                    h3.s-grid-blocks__mobile-title Лимагрен в республике Беларусь
+                    img(src="images/single/about-img3.png")
+                .col
+                    .s-grid-blocks__box
+                        h3.s-grid-blocks__title Лимагрен в республике Беларусь
+                        p
+                            | В Республике Беларусь мы представляем семена полевых культур под брендом LG: зерновая кукуруза, силосная кукуруза, озимый рапс.
+                        a(href="#").ui-button-link.is-red.s-grid-blocks__button: span ПОДРОБНЕЕ
+
+
+
+                .col
+                    .s-grid-blocks__box
+                        h3.s-grid-blocks__title Лимагрен в Казахстане
+                        p
+                            | В 2011 году  компания «Лимагрен» открыла филиал в Казахстане. Здесь представлены семена полевых культур:  подсолнечник, зерновая кукуруза, силосная кукуруза, пивоваренный ячмень.
+                        a(href="#").ui-button-link.is-red.s-grid-blocks__button: span ПОДРОБНЕЕ
+
+                .col.s-grid-blocks-image 
+                    h3.s-grid-blocks__mobile-title Лимагрен в Казахстане
+                    img(src="images/single/about-img4.png")
+
+
+
+                .col.s-grid-blocks-image 
+                    h3.s-grid-blocks__mobile-title Карьера в Лимагрен
+                    img(src="images/single/about-img5.png")
+                .col
+                    .s-grid-blocks__box
+                        h3.s-grid-blocks__title Карьера в Лимагрен
+                        p
+                            | Компания имеет филиалы в 57 странах, в том числе в России, продает семена более чем в 150 странах мира. Численность сотрудников превышает 9 000 человек, 80-ти национальностей. Limagrain занимает 4 место в рейтинге мировых семенных компаний.
+                        a(href="#").ui-button-link.is-red.s-grid-blocks__button: span ПОДРОБНЕЕ
+
+
+    section.section.s-blog
+        .container
+            h2.section__title.text-center блог
+            .blog-list
+                +BlogItem('images/blog/1.png', '«Лучший силос/сенаж»', '13 august 2019')
+                +BlogItem('images/blog/2.png', '«Лучший силос/сенаж»', '13 august 2019')
+                +BlogItem('images/blog/3.png', '«Лучший силос/сенаж»', '13 august 2019')
+            .section__buttons
+                a(href="#").ui-button ВСЕ НОВОСТИ
