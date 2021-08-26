@@ -26,7 +26,18 @@
 
 		<header class="section-<?php echo esc_attr( $mediaconsult_section_tone_value[0] ); ?>" data-skin="<?php echo esc_attr( $mediaconsult_section_tone_value[0] ); ?>">
 
-
+			<div class="header-top-bar">
+				<div class="header-top-bar-item">
+					<span class="header-top-bar-search"></span>
+					<div class="header-top-bar-text"></div>
+				</div>
+				<div class="header-top-bar-item">
+					<a href="#">Печать</a>
+				</div>
+				<div class="header-top-bar-item">
+					<a href="#">Для слабовидящих</a>
+				</div>
+			</div>
 			<div class="header-grid">
 
 				<div class="header-logo" itemscope itemtype="http://schema.org/Organization">
