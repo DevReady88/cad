@@ -7890,9 +7890,12 @@ ul.nav-tabs li a:hover:before {
 }
 
 
-.header-logo img{
+header .header-logo img{
 	max-width:  96px;
 	height:  auto;
+}
+header .top-header-links{
+	display:  flex;
 }
 
 

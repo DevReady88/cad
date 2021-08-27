@@ -35,10 +35,8 @@
 						<a href="mailto:cdnikk@adm.krasnodar.ru">cdnikk@adm.krasnodar.ru</a>
 					</div>
 				</div>
-				<div class="header-top-bar-item">
+				<div class="header-top-bar-item top-header-links">
 					<a href="#">Печать&nbsp;&#448;&nbsp;</a>
-				</div>
-				<div class="header-top-bar-item">
 					<a href="#">Для слабовидящих</a>
 				</div>
 			</div>
