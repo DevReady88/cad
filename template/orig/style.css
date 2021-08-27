@@ -1878,8 +1878,6 @@ input.select2-search__field {
         margin: -10px 0 0 0;
         padding: 12px 0 12px 32px;
         width: 84%;
-        border-left-width: 1px;
-        border-left-style: solid;
     }
     .header-top-search {
         margin: -3px 0 0 0;

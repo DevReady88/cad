@@ -1,13 +1,14 @@
 /*
-	Theme Name: Center Archive Child
-	Description: A theme Center Archive
-	Template: mediaconsult
-	Version: 1.0.0
-	Author: XY
-	Author URI: https://xystudio.ru
-	License: GNU General Public License version 2.0
-	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Theme Name: Center Archive Child
+    Description: A theme Center Archive
+    Template: mediaconsult
+    Version: 1.0.0
+    Author: XY
+    Author URI: https://xystudio.ru
+    License: GNU General Public License version 2.0
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+
 
 html,
 body,
@@ -1880,8 +1881,6 @@ input.select2-search__field {
         margin: -10px 0 0 0;
         padding: 12px 0 12px 32px;
         width: 84%;
-        border-left-width: 1px;
-        border-left-style: solid;
     }
     .header-top-search {
         margin: -3px 0 0 0;
@@ -7891,26 +7890,36 @@ ul.nav-tabs li a:hover:before {
 
 
 header .header-logo img{
-	max-width:  96px;
-	height:  auto;
+    max-width:  96px;
+    height:  auto;
 }
 header .header-top-bar{
-	background: #F6F7F8;
-	justify-content: space-between;
+    background: #F6F7F8;
+    justify-content: space-between;
 }
 header .header-top-bar,
 header .header-top-bar .top-header-links{
-	display:  flex;
+    display:  flex;
 }
-
+header .header-grid .header-slogan{
+    text-transform: uppercase;
+}
+header .header-grid .header-slogan .slogan-title{
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    color: #414A5E;
+}
 
 footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map{
-	display:  flex;
-	flex-wrap:  wrap;
+    display:  flex;
+    flex-wrap:  wrap;
 }
 footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map .widget:first-child{
-	margin-right:  15px;
+    margin-right:  15px;
 }
 footer .fbottom-left{
-	text-align:  right;
+    text-align:  right;
 }
