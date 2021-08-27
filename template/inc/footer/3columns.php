@@ -5,8 +5,11 @@
 
 	</div>
 	<div class="footer-widget-2">
-		<?php if ( is_active_sidebar( 'fsidebar-2' ) ) : dynamic_sidebar( 'fsidebar-2' ); endif; ?>	
-		<?php if ( is_active_sidebar( 'fsidebar-3' ) ) : dynamic_sidebar( 'fsidebar-3' ); endif; ?>
+		<h3 class="widgettitle">Карта сайта</h3>
+		<div class="footer-site-map">
+			<?php if ( is_active_sidebar( 'fsidebar-2' ) ) : dynamic_sidebar( 'fsidebar-2' ); endif; ?>	
+			<?php if ( is_active_sidebar( 'fsidebar-3' ) ) : dynamic_sidebar( 'fsidebar-3' ); endif; ?>
+		</div>
 	</div>
 	<div class="footer-widget-3">
 		<?php if ( is_active_sidebar( 'fsidebar-4' ) ) : dynamic_sidebar( 'fsidebar-4' ); endif; ?>
