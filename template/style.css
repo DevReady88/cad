@@ -7896,6 +7896,8 @@ header .header-logo img{
 header .header-top-bar{
     background: #F6F7F8;
     justify-content: space-between;
+    padding-left: 38px;
+    padding-right: 42px;
 }
 header .header-top-bar,
 header .header-top-bar .top-header-links{
@@ -7905,7 +7907,7 @@ header .header-grid .header-slogan{
     text-transform: uppercase;
 }
 header .header-grid .header-slogan .slogan-title{
-    font-family: Exo 2;
+    font-family: "Exo 2";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;

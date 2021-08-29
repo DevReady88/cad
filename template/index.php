@@ -15,9 +15,18 @@
 			
 			<?php get_template_part( 'page-title-section' ); ?>
 
-			
+	
 			<?php if ( have_posts() ) : 
 				while( have_posts() ) : the_post(); ?>
+
+					<div class="main-content-part">
+						<aside>
+							<?php get_sidebar(); ?>
+						</aside>
+						<section class="section-main-part">
+							sdfsdfsdfsdf
+						</section>
+					</div>
 
 
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'default-post-block' ); ?> itemscope itemtype="http://schema.org/Article">
@@ -56,8 +65,6 @@
 			</div>     
 				
 		</div>
-
-		<?php get_sidebar(); ?>
 
 	</div>
 
