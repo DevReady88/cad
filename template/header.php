@@ -30,9 +30,9 @@
 				<div class="header-top-bar-item">
 					<span class="header-top-bar-search"></span>
 					<div class="header-top-bar-text">
-						<span>350001, г. Краснодар, ул. им. Академика Павлова, д. 122&nbsp;&#448;&nbsp;</span>
-						<a href="tel:+78612397553">+7 (861) 239-75-53&nbsp;&#448;&nbsp;</a>
-						<a href="mailto:cdnikk@adm.krasnodar.ru">cdnikk@adm.krasnodar.ru</a>
+						<span>350001, г. Краснодар, ул. им. Академика Павлова, д. 122<i></i></span>
+						<a class="_top-bar-phone" href="tel:+78612397553">+7 (861) 239-75-53&nbsp;<i></i></a>
+						<a class="_top-bar-email" href="mailto:cdnikk@adm.krasnodar.ru">cdnikk@adm.krasnodar.ru</a>
 					</div>
 				</div>
 				<div class="header-top-bar-item top-header-links">

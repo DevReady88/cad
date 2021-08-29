@@ -7898,6 +7898,8 @@ header .header-top-bar{
   justify-content: space-between;
   padding-left: 38px;
   padding-right: 42px;
+  padding-top: 11px;
+  padding-bottom: 12px;
 }
 header .header-top-bar .header-top-bar-search{
   display: inline-block;
@@ -7907,6 +7909,9 @@ header .header-top-bar .header-top-bar-search{
   background-size: 20.41px 27px;
   margin-right: 13.59px;
 }
+header .header-top-bar .header-top-bar-text{
+  display: flex;
+}
 header .header-top-bar .header-top-bar-text span{
   font-family: "PT Sans";
   font-style: normal;
@@ -7915,12 +7920,45 @@ header .header-top-bar .header-top-bar-text span{
   line-height: 21px;
   color: #B5B9BC;
 }
+header .header-top-bar .header-top-bar-text a{
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  color: #B5B9BC;
+}
+header .header-top-bar .header-top-bar-text span i{
+  margin-left: 6.5px;
+  margin-right: 8.5px;
+}
+header .header-top-bar .header-top-bar-text a._top-bar-phone i{
+  margin-left: 15px;
+}
+header .header-top-bar .header-top-bar-text a._top-bar-email{
+  margin-left: 23px;
+}
 
 
 header .header-top-bar,
 header .header-top-bar .header-top-bar-item{
-  display:  flex;
+  display: flex;
+  align-items: center;
 }
+header .header-top-bar .header-top-bar-item i{
+  border: 1px solid #153AB2;
+  opacity: 0.2;
+}
+
+header .header-top-bar .header-top-bar-item.top-header-links a{
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  color: #153AB2;
+}
+
 header .header-grid .header-slogan{
   text-transform: uppercase;
 }
