@@ -7893,8 +7893,10 @@ header .header-logo img{
   max-width:  96px;
   height:  auto;
 }
-header .header-top-bar{
+header .header-top-bar-wrapper{
   background: #F6F7F8;
+}
+header .header-top-bar{
   justify-content: space-between;
   padding-left: 38px;
   padding-right: 42px;
@@ -7909,8 +7911,15 @@ header .header-top-bar .header-top-bar-search{
   background-size: 20.41px 27px;
   margin-right: 13.59px;
 }
+header .header-top-bar,
+header .header-top-bar .header-top-bar-item,
 header .header-top-bar .header-top-bar-text{
   display: flex;
+  align-items: center;
+}
+header .header-top-bar .header-top-bar-item i{
+  border: 1px solid #153AB2;
+  opacity: 0.2;
 }
 header .header-top-bar .header-top-bar-text span{
   font-family: "PT Sans";
@@ -7940,23 +7949,37 @@ header .header-top-bar .header-top-bar-text a._top-bar-email{
 }
 
 
-header .header-top-bar,
-header .header-top-bar .header-top-bar-item{
+header .header-top-bar .header-top-bar-item.top-header-links a{
   display: flex;
   align-items: center;
-}
-header .header-top-bar .header-top-bar-item i{
-  border: 1px solid #153AB2;
-  opacity: 0.2;
-}
-
-header .header-top-bar .header-top-bar-item.top-header-links a{
   font-family: "Exo 2";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 17px;
   color: #153AB2;
+}
+header .header-top-bar .header-top-bar-item.top-header-links i{
+  margin-left: 21px;
+  margin-right: 22px;
+  transform: rotate(90deg);
+  width: 21px;
+}
+header .header-top-bar .header-top-bar-item.top-header-links ._vision span{
+  display: inline-block;
+  width: 33.67px;
+  height: 19.52px;
+  background-image: url(assets/images/eye-icon.svg);
+  background-size: 33.67px 19.52px;
+  margin-right: 7.66px;
+}
+header .header-top-bar .header-top-bar-item.top-header-links ._print span{
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-image: url(assets/images/print-icon.svg);
+  background-size: 26px 26px;
+  margin-right: 9px;
 }
 
 header .header-grid .header-slogan{

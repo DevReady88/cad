@@ -25,19 +25,20 @@
 		<?php $mediaconsult_section_tone_value = mediaconsult_section_tone(); ?>
 
 		<header class="section-<?php echo esc_attr( $mediaconsult_section_tone_value[0] ); ?>" data-skin="<?php echo esc_attr( $mediaconsult_section_tone_value[0] ); ?>">
-
-			<div class="header-top-bar">
-				<div class="header-top-bar-item">
-					<span class="header-top-bar-search"></span>
-					<div class="header-top-bar-text">
-						<span>350001, г. Краснодар, ул. им. Академика Павлова, д. 122<i></i></span>
-						<a class="_top-bar-phone" href="tel:+78612397553">+7 (861) 239-75-53&nbsp;<i></i></a>
-						<a class="_top-bar-email" href="mailto:cdnikk@adm.krasnodar.ru">cdnikk@adm.krasnodar.ru</a>
+			<div class="header-top-bar-wrapper">
+				<div class="header-top-bar">
+					<div class="header-top-bar-item">
+						<span class="header-top-bar-search"></span>
+						<div class="header-top-bar-text">
+							<span>350001, г. Краснодар, ул. им. Академика Павлова, д. 122<i></i></span>
+							<a class="_top-bar-phone" href="tel:+78612397553">+7 (861) 239-75-53&nbsp;<i></i></a>
+							<a class="_top-bar-email" href="mailto:cdnikk@adm.krasnodar.ru">cdnikk@adm.krasnodar.ru</a>
+						</div>
 					</div>
-				</div>
-				<div class="header-top-bar-item top-header-links">
-					<a href="#">Печать&nbsp;&#448;&nbsp;</a>
-					<a href="#">Для слабовидящих</a>
+					<div class="header-top-bar-item top-header-links">
+						<a class="_print" href="#"><span></span>Печать<i></i></a>
+						<a class="_vision" href="#"><span></span>Для слабовидящих</a>
+					</div>
 				</div>
 			</div>
 			<div class="header-grid">
