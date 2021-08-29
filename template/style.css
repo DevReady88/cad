@@ -7890,38 +7890,56 @@ ul.nav-tabs li a:hover:before {
 
 
 header .header-logo img{
-    max-width:  96px;
-    height:  auto;
+  max-width:  96px;
+  height:  auto;
 }
 header .header-top-bar{
-    background: #F6F7F8;
-    justify-content: space-between;
-    padding-left: 38px;
-    padding-right: 42px;
+  background: #F6F7F8;
+  justify-content: space-between;
+  padding-left: 38px;
+  padding-right: 42px;
 }
+header .header-top-bar .header-top-bar-search{
+  display: inline-block;
+  width: 20.41px;
+  height: 27px;
+  background-image: url(assets/images/head-icon.svg);
+  background-size: 20.41px 27px;
+  margin-right: 13.59px;
+}
+header .header-top-bar .header-top-bar-text span{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #B5B9BC;
+}
+
+
 header .header-top-bar,
-header .header-top-bar .top-header-links{
-    display:  flex;
+header .header-top-bar .header-top-bar-item{
+  display:  flex;
 }
 header .header-grid .header-slogan{
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 header .header-grid .header-slogan .slogan-title{
-    font-family: "Exo 2";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 23px;
-    color: #414A5E;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 23px;
+  color: #414A5E;
 }
 
 footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map{
-    display:  flex;
-    flex-wrap:  wrap;
+  display:  flex;
+  flex-wrap:  wrap;
 }
 footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map .widget:first-child{
-    margin-right:  15px;
+  margin-right:  15px;
 }
 footer .fbottom-left{
-    text-align:  right;
+  text-align:  right;
 }
