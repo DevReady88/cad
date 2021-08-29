@@ -2,7 +2,17 @@
 
 	<div class="header-inner-grid">
 
-		
+		<div class="header-text-presentation-outer">
+		<?php if ( get_theme_mod( 'header_top_presentation' ) ) { ?>
+
+			<div class="header-text-presentation intro-text">
+
+				<?php echo do_shortcode( get_theme_mod( 'header_top_presentation' ) ); ?>
+
+			</div>
+
+		<?php } ?>
+		</div>
 
 		<?php if ( get_theme_mod( 'header_top_search' ) == 'true' ) { ?>
 

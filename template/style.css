@@ -1,7 +1,6 @@
 /*
-    Theme Name: Center Archive Child
+    Theme Name: Center Archive
     Description: A theme Center Archive
-    Template: mediaconsult
     Version: 1.0.0
     Author: XY
     Author URI: https://xystudio.ru
@@ -953,7 +952,8 @@ img:not([src]):not([srcset]) {
     .header-inner-grid {
         grid-template-columns: 1fr 1fr;
         grid-gap: 4%;
-        grid-template-columns: 64% 32%;
+        grid-template-columns: 100%;
+        justify-items: end;
     }
     .footer-grid-2,
     .footer-grid-3,
@@ -1883,7 +1883,8 @@ input.select2-search__field {
         width: 84%;
     }
     .header-top-search {
-        margin: -3px 0 0 0;
+        width: 549px;
+        margin: 0px 0 0 0;
     }
 }
 .cel-wrapper.main-menu-wrapper {
@@ -7890,8 +7891,8 @@ ul.nav-tabs li a:hover:before {
 
 
 header .header-logo img{
-  max-width:  96px;
-  height:  auto;
+  max-width: 96px;
+  height: auto;
 }
 header .header-top-bar-wrapper{
   background: #F6F7F8;
@@ -7994,6 +7995,10 @@ header .header-grid .header-slogan .slogan-title{
   color: #414A5E;
 }
 
+header .header-topright-wrapper input[type="search"]{
+  width: 100%;
+}
+
 footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map{
   display:  flex;
   flex-wrap:  wrap;
@@ -8003,4 +8008,12 @@ footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map
 }
 footer .fbottom-left{
   text-align:  right;
+}
+
+
+@media only screen and (min-width: 1024px){
+  .header-logo{
+    display: flex;
+    align-items: center;
+  }
 }
