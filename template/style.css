@@ -1,9 +1,10 @@
 /*
-    Theme Name: Center Archive
+    Theme Name: Center Archive Child
     Description: A theme Center Archive
     Version: 1.0.0
     Author: XY
     Author URI: https://xystudio.ru
+    Template: mediaconsult
     License: GNU General Public License version 2.0
     License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -2332,10 +2333,10 @@ input.select2-search__field {
 .cel-modern-menu-alt .header-nav {
     float: left;
     width: 100%;
-    border-bottom-width: 1px;
+    /*border-bottom-width: 1px;
     border-bottom-style: solid;
     border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
+    border-top-right-radius: 2px;*/
 }
 .cel-modern-menu-alt .sf-menu > li,
 .cel-modern-menu-alt .sf-menu ul > li {
@@ -8039,6 +8040,13 @@ header .header-topright-wrapper input[type="search"]:-ms-input-placeholder { /* 
 }
 header .header-topright-wrapper input[type="search"]::-ms-input-placeholder { /* Microsoft Edge */
   color: #153AB2;
+}
+
+header .header-menu-type-wrapper{
+    background: #153ab2;
+}
+header .header-menu-type-wrapper .thick-line-separator{
+    height:  0;
 }
 
 footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map{
