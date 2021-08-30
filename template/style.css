@@ -2397,7 +2397,7 @@ input.select2-search__field {
     margin: 0 0 40px 0;
 }
 .main-footer {
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 .footer-menu-list {
     margin: 0 0 20px 0;
@@ -4043,15 +4043,32 @@ span.post-misc-dot {
     background: #F6F7F8;
 }
 .footer-sidebars-wrapper .widget {
-    margin-top: 22px;
+    margin-top: 0px;
     padding-left: 0;
     padding-right: 0;
     border-left-width: 0;
     border-right-width: 0;
     margin-bottom: 40px;
 }
-.footer-sidebars-wrapper .widget h3.widgettitle {
-    margin-bottom: 22px;
+.footer-sidebars-wrapper .footer-widget-1{
+    margin-top: 22px;
+}
+.footer-sidebars-wrapper .footer-widget-2{
+    margin-top: 96px;
+}
+.footer-sidebars-wrapper .footer-widget-3{
+    margin-top: 96px;
+}
+.footer-sidebars-wrapper .widget h3.widgettitle,
+.footer-sidebars-wrapper .footer-widget-2 h3.widgettitle{
+    font-family: "Exo 2";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #414A5E;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 .footer-sidebars-wrapper .widget ul li {
     border-bottom-width: 0;
@@ -4479,7 +4496,7 @@ button.search-submit {
 }
 .minimal-sidebar .widget h3.widgettitle,
 .minimal-sidebar .sidebar .elementor-widget h3.widgettitle {
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 .minimal-sidebar .elementor-widget .elementor-widget-container > h5:not(.cel-slick-nav-title) {
     margin-bottom: 22px;
@@ -7375,7 +7392,7 @@ ul.nav-tabs li a:hover:before {
     width: 100%;
 }
 .cel-homepage-slider-wrapper {
-    margin: 66px 0 0 0;
+    margin: 23px 0 0 0;
     height: auto;
 }
 .cel-homepage-slider-wrapper .slick-dots {
@@ -7612,7 +7629,7 @@ ul.nav-tabs li a:hover:before {
         height: 414px;
     }
     .cel-default-slider-wrapper .cel-slider-parent {
-        height: 414px;
+        height: 556px;
     }
     .cel-slide-box p {
         display: block;
@@ -8058,9 +8075,7 @@ footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map
 footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map .widget:first-child{
   margin-right:  15px;
 }
-footer .fbottom-left{
-  text-align:  right;
-}
+
 footer .footer-sidebars-wrapper .footer-grid-3 .footer-slogan{
     font-family: "Exo 2";
     font-weight: 500;
@@ -8099,7 +8114,50 @@ footer .footer-sidebars-wrapper .footer-grid-3 .footer-info .footer-info-address
     line-height: 18px; 
     margin-top: 19px;
 }
+footer .footer-sidebars-wrapper .footer-grid-3 .yandex_count{
+    margin-top: 4px;
+}
+footer .footer-sidebars-wrapper .widget ul li{
+    margin-top: 5px;
+}
+footer .footer-sidebars-wrapper .widget ul li: first-child{ margin-top: 0; }
+footer .footer-sidebars-wrapper .widget ul li a,
+.minimal-sidebar footer .footer-sidebars-wrapper .widget ul li a{
+    padding: 0;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 146%;
+    color: #414A5E;
+    opacity: 0.8;
+}
 
+footer .fbottom-left{
+  text-align: right;
+  padding-top: 20px;
+}
+footer .fbottom-left a{
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 146%;
+  color: #153AB2;
+  opacity: 0.8;
+}
+    
+footer .fbottom-right{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 146%;
+  color: #414A5E;
+  opacity: 0.8;
+  padding-top: 18px;
+  padding-bottom: 15px;
+}
     
 @media only screen and (min-width: 1024px){
   .header-logo{
