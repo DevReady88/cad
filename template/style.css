@@ -8070,10 +8070,37 @@ footer .footer-sidebars-wrapper .footer-grid-3 .footer-slogan{
     color: #2A2A2B;
 }
 footer .footer-sidebars-wrapper .footer-grid-3 .footer-slogan span{
-    
+    font-family:"Exo 2";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #2A2A2B;
 }
-    
+footer .footer-sidebars-wrapper .footer-grid-3 .footer-info{
+    margin-top: 11px;
+}
+footer .footer-sidebars-wrapper .footer-grid-3 .footer-info,
+footer .footer-sidebars-wrapper .footer-grid-3 .footer-info p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 146%;
+    color: rgba(65,74,94,0.4);
+}
+footer .footer-sidebars-wrapper .footer-grid-3 .footer-info p{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+footer .footer-sidebars-wrapper .footer-grid-3 .footer-info .footer-info-address{
+    font-size: 14px;
+    line-height: 18px; 
+    margin-top: 19px;
+}
 
+    
 @media only screen and (min-width: 1024px){
   .header-logo{
     display: flex;
