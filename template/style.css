@@ -4,7 +4,6 @@
     Version: 1.0.0
     Author: XY
     Author URI: https://xystudio.ru
-    Template: mediaconsult
     License: GNU General Public License version 2.0
     License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -4040,8 +4039,11 @@ span.post-misc-dot {
 .elementor-widget-wp-widget-nav_menu ul li:before {
     display: none;
 }
+.footer-sidebars-wrapper{
+    background: #F6F7F8;
+}
 .footer-sidebars-wrapper .widget {
-    margin-top: 20px;
+    margin-top: 22px;
     padding-left: 0;
     padding-right: 0;
     border-left-width: 0;
@@ -4473,7 +4475,7 @@ button.search-submit {
 .minimal-sidebar .sidebar .elementor-widget {
     border-left-width: 0px;
     padding: 0;
-    margin-bottom: 84px;
+    margin-bottom: 26px;
 }
 .minimal-sidebar .widget h3.widgettitle,
 .minimal-sidebar .sidebar .elementor-widget h3.widgettitle {
@@ -8059,7 +8061,18 @@ footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map
 footer .fbottom-left{
   text-align:  right;
 }
-
+footer .footer-sidebars-wrapper .footer-grid-3 .footer-slogan{
+    font-family: "Exo 2";
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #2A2A2B;
+}
+footer .footer-sidebars-wrapper .footer-grid-3 .footer-slogan span{
+    
+}
+    
 
 @media only screen and (min-width: 1024px){
   .header-logo{
