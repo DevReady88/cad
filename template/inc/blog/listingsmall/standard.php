@@ -92,7 +92,7 @@
 			$mediaconsult_post_thumbnail = ' sl-thumbnail'; ?>
 			
 			<div class="small-listing-img">
-				<a href="<?php echo esc_url( get_permalink() ); ?>">
+				<a href="#">
 					<?php the_post_thumbnail( 'mediaconsult_122x122-crop' ); ?>
 				</a>
 			</div>

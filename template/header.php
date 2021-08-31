@@ -34,6 +34,11 @@
 							<a class="_top-bar-phone" href="tel:+78612397553">+7 (861) 239-75-53&nbsp;<i></i></a>
 							<a class="_top-bar-email" href="mailto:cdnikk@adm.krasnodar.ru">cdnikk@adm.krasnodar.ru</a>
 						</div>
+						<div class="header-socials">
+							<span class="vk"></span>
+							<span class="inst"></span>
+							<span class="fb"></span>
+						</div>
 					</div>
 					<div class="header-top-bar-item top-header-links">
 						<a class="_print" href="#"><span></span>Печать<i></i></a>
