@@ -85,7 +85,7 @@
 	
 	<?php $mediaconsult_post_thumbnail = ' sl-no-thumbnail'; ?>
 	
-	<div id="post-<?php the_ID(); ?>" <?php post_class( 'small-listing-block small-listing-border' ); ?>>
+	<div fdfsd="sdfsdfds" id="post-<?php the_ID(); ?>" <?php post_class( 'small-listing-block small-listing-border' ); ?>>
 	
 		<?php if( has_post_thumbnail() ) { 
 			
@@ -93,7 +93,7 @@
 			
 			<div class="small-listing-img">
 				<a href="#">
-					<?php the_post_thumbnail( 'mediaconsult_122x122-crop' ); ?>
+					<?php /*the_post_thumbnail( 'mediaconsult_122x122-crop' );*/ ?>
 				</a>
 			</div>
 
@@ -101,7 +101,7 @@
 			
 		<?php }	?>
 		
-		<div class="small-listing-content <?php echo esc_attr( $mediaconsult_post_thumbnail ); ?>">
+		<div class="dfsdfs small-listing-content <?php echo esc_attr( $mediaconsult_post_thumbnail ); ?>">
 		
 			<h3 id="post-<?php the_ID(); ?>" <?php post_class( 'cel-post-title' ); ?>>
 				<a href="<?php echo esc_url( get_permalink() ); ?>" class="cel-underline"><span><?php the_title(); ?></span></a>

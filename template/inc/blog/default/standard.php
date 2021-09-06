@@ -123,7 +123,7 @@
 			<div class="clearboth"></div>
 		<?php }	?>
 
-		<div class="entry-content"><?php the_content( esc_html__( 'Read More', 'mediaconsult' ) ); ?></div>
+		<div class="entry-content"><?php the_content( esc_html__( 'Читать далее', 'mediaconsult' ) ); ?></div>
 	
 	</div>
 	
