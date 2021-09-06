@@ -8109,14 +8109,36 @@ header .header-menu-type-wrapper .thick-line-separator{
 }
 
 /*main*/
-.contact-prefooter-info{
-  display: flex;
+.contact-prefooter-wrapper{
   max-width: 1311px;
   margin-left: auto;
   margin-right: auto;
 }
+.contact-prefooter-wrapper h3{
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #153AB2;
+}
+
+.contact-prefooter-info{
+  display: flex;
+  margin-top: 53px;
+}
 .contact-prefooter-info .contact-prefooter-item{
-  width: 25%;
+  display: flex;
+  width: 304px;
+  background: #F6F7F8;
+  margin-right: 32px;
+  padding: 25px 14px 17px 36px;
+}
+.contact-prefooter-info .contact-prefooter-item:last-child{
+  margin-right: 0;
 }
 .contact-prefooter-info .contact-prefooter-item .contact-prefooter-item-content span{
   font-family: "Exo 2";
@@ -8134,6 +8156,7 @@ header .header-menu-type-wrapper .thick-line-separator{
   line-height: 18px;
   color: #414A5E;
 }
+.contact-prefooter-info .contact-prefooter-item .contact-prefooter-item-content .cpi-description p{ padding: 0; }
 
 footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map{
   display:  flex;

@@ -99,47 +99,51 @@
 
 			if( is_front_page() ){ ?>
 
-				<h3>Контактная информация</h3>
+				<div class="contact-prefooter-wrapper">
+					
+					<h3>Контактная информация</h3>
 
-				<div class="contact-prefooter-info">
-					<div class="contact-prefooter-item">
-						<div class="contact-prefooter-item-content">
-							<span>График работы</span>
-							<div class="cpi-description">
-								<p>ПН-ЧТ: 09:00 - 18:00</p>
-								<p>ПТ:   09:00 - 17:00</p>
-								<p>СБ и ВС: выходные</p>
+					<div class="contact-prefooter-info">
+						<div class="contact-prefooter-item">
+							<div class="contact-prefooter-item-content">
+								<span>График работы</span>
+								<div class="cpi-description">
+									<p>ПН-ЧТ: 09:00 - 18:00</p>
+									<p>ПТ:   09:00 - 17:00</p>
+									<p>СБ и ВС: выходные</p>
+								</div>
 							</div>
+							<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/clock.svg" alt="Центр Архив" /></div>
 						</div>
-						<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/clock.svg" alt="Центр Архив" /></div>
-					</div>
-					<div class="contact-prefooter-item">
-						<div class="contact-prefooter-item-content">
-							<span>Адрес</span>
-							<div class="cpi-description">
-								<p>350001 г. Краснодар</p> 
-								<p>ул. им. Академика</p> 
-								<p>Павлова, д. 122</p>
+						<div class="contact-prefooter-item">
+							<div class="contact-prefooter-item-content">
+								<span>Адрес</span>
+								<div class="cpi-description">
+									<p>350001 г. Краснодар</p> 
+									<p>ул. им. Академика</p> 
+									<p>Павлова, д. 122</p>
+								</div>
 							</div>
+							<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/addr.svg" alt="Центр Архив" /></div>
 						</div>
-						<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/addr.svg" alt="Центр Архив" /></div>
-					</div>
-					<div class="contact-prefooter-item">
-						<div class="contact-prefooter-item-content">
-							<span>Контакты</span>
-							<div class="cpi-description">	
-								<a href="tel:88612397553">8 (861) 239-75-53</a>
-								<a href="mailto:cdnikk@adm.krasnodar.ru">cdnikk@adm.krasnodar.ru</a>
+						<div class="contact-prefooter-item">
+							<div class="contact-prefooter-item-content">
+								<span>Контакты</span>
+								<div class="cpi-description">	
+									<a href="tel:88612397553">8 (861) 239-75-53</a>
+									<a href="mailto:cdnikk@adm.krasnodar.ru">cdnikk@adm.krasnodar.ru</a>
+								</div>
 							</div>
+							<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/clock.svg" alt="Центр Архив" /></div>
 						</div>
-						<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/clock.svg" alt="Центр Архив" /></div>
-					</div>
-					<div class="contact-prefooter-item">
-						<div class="contact-prefooter-item-content">
-							<span>Схема проезда</span>
+						<div class="contact-prefooter-item">
+							<div class="contact-prefooter-item-content">
+								<span>Схема проезда</span>
+							</div>
+							<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/clock.svg" alt="Центр Архив" /></div>
 						</div>
-						<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/clock.svg" alt="Центр Архив" /></div>
 					</div>
+
 				</div>
 
 			<?}
