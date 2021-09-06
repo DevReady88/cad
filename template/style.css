@@ -8108,6 +8108,33 @@ header .header-menu-type-wrapper .thick-line-separator{
     height:  0;
 }
 
+/*main*/
+.contact-prefooter-info{
+  display: flex;
+  max-width: 1311px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-prefooter-info .contact-prefooter-item{
+  width: 25%;
+}
+.contact-prefooter-info .contact-prefooter-item .contact-prefooter-item-content span{
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #153AB2;
+}
+.contact-prefooter-info .contact-prefooter-item .contact-prefooter-item-content .cpi-description{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #414A5E;
+}
+
 footer .footer-sidebars-wrapper .footer-grid-3 .footer-widget-2 .footer-site-map{
   display:  flex;
   flex-wrap:  wrap;

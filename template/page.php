@@ -99,6 +99,8 @@
 
 			if( is_front_page() ){ ?>
 
+				<h3>Контактная информация</h3>
+
 				<div class="contact-prefooter-info">
 					<div class="contact-prefooter-item">
 						<div class="contact-prefooter-item-content">
