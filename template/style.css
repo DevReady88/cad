@@ -8132,6 +8132,7 @@ header .header-menu-type-wrapper .thick-line-separator{
 }
 .contact-prefooter-info .contact-prefooter-item{
   display: flex;
+  justify-content: space-between;
   width: 304px;
   background: #F6F7F8;
   margin-right: 32px;
@@ -8141,12 +8142,14 @@ header .header-menu-type-wrapper .thick-line-separator{
   margin-right: 0;
 }
 .contact-prefooter-info .contact-prefooter-item .contact-prefooter-item-content span{
+  display: block;
   font-family: "Exo 2";
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
   color: #153AB2;
+  margin-bottom: 18px;
 }
 .contact-prefooter-info .contact-prefooter-item .contact-prefooter-item-content .cpi-description{
   font-family: "PT Sans";
@@ -8155,6 +8158,9 @@ header .header-menu-type-wrapper .thick-line-separator{
   font-size: 14px;
   line-height: 18px;
   color: #414A5E;
+}
+.contact-prefooter-info .contact-prefooter-item .cpi-image img{
+  max-width: none;
 }
 .contact-prefooter-info .contact-prefooter-item .contact-prefooter-item-content .cpi-description p{ padding: 0; }
 

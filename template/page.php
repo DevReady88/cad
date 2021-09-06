@@ -74,17 +74,16 @@
 
 						} ?>
 					
-					
 						<?php 
 					  	
 					  	the_content();
 
-						wp_link_pages( array(
-							'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'mediaconsult' ),
-							'after'  => '</div>',
-						) ); 							
+							wp_link_pages( array(
+								'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'mediaconsult' ),
+								'after'  => '</div>',
+							) ); 							
 
-						comments_template(); ?>
+							comments_template(); ?>
 
 					</div>
 
@@ -113,7 +112,7 @@
 									<p>СБ и ВС: выходные</p>
 								</div>
 							</div>
-							<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/clock.svg" alt="Центр Архив" /></div>
+							<div class="cpi-image"><img width="82" height="82" src="/sites/center/wp-content/themes/mediaconsult/assets/images/clock.svg" alt="Центр Архив" /></div>
 						</div>
 						<div class="contact-prefooter-item">
 							<div class="contact-prefooter-item-content">
@@ -124,7 +123,7 @@
 									<p>Павлова, д. 122</p>
 								</div>
 							</div>
-							<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/addr.svg" alt="Центр Архив" /></div>
+							<div class="cpi-image"><img width="69" height="93" src="/sites/center/wp-content/themes/mediaconsult/assets/images/addr.svg" alt="Центр Архив" /></div>
 						</div>
 						<div class="contact-prefooter-item">
 							<div class="contact-prefooter-item-content">
@@ -134,13 +133,13 @@
 									<a href="mailto:cdnikk@adm.krasnodar.ru">cdnikk@adm.krasnodar.ru</a>
 								</div>
 							</div>
-							<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/clock.svg" alt="Центр Архив" /></div>
+							<div class="cpi-image"><img width="88" height="88" src="/sites/center/wp-content/themes/mediaconsult/assets/images/phone-call.svg" alt="Центр Архив" /></div>
 						</div>
 						<div class="contact-prefooter-item">
 							<div class="contact-prefooter-item-content">
 								<span>Схема проезда</span>
 							</div>
-							<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/clock.svg" alt="Центр Архив" /></div>
+							<div class="cpi-image"><img src="/sites/center/wp-content/themes/mediaconsult/assets/images/road.svg" alt="Центр Архив" /></div>
 						</div>
 					</div>
 
