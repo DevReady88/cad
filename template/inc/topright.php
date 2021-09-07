@@ -1,6 +1,6 @@
 <?php if ( get_theme_mod( 'header_topright_content_phone' ) || get_theme_mod( 'header_topright_content_email' ) ) { ?>
 
-	<div class="topright-section-wrapper <?php echo mediaconsult_wpml_topright_section(); ?>">
+	<div class="fdfsdf topright-section-wrapper <?php echo mediaconsult_wpml_topright_section(); ?>">
 		
 		<div class="topright-section">
 		

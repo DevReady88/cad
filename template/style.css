@@ -1,5 +1,5 @@
 /*
-    Theme Name: Center Archive Child
+    Theme Name: Center Archive
     Description: A theme Center Archive
     Version: 1.0.0
     Author: XY
@@ -4055,9 +4055,11 @@ span.post-misc-dot {
 }
 .footer-sidebars-wrapper .footer-widget-2{
     margin-top: 96px;
+    margin-left: 102px;
 }
 .footer-sidebars-wrapper .footer-widget-3{
     margin-top: 96px;
+    margin-left: 102px;
 }
 .footer-sidebars-wrapper .widget h3.widgettitle,
 .footer-sidebars-wrapper .footer-widget-2 h3.widgettitle{
@@ -7962,7 +7964,10 @@ ul.nav-tabs li a:hover:before {
     margin: 22px 0 40px 0;
 }
 
-
+header .header-grid{
+  display: flex;
+  justify-content: space-between;
+}
 header .header-logo img{
   max-width: 96px;
   height: auto;
@@ -7972,8 +7977,8 @@ header .header-top-bar-wrapper{
 }
 header .header-top-bar{
   justify-content: space-between;
-  padding-left: 38px;
-  padding-right: 42px;
+  padding-left: 24px;
+  padding-right: 26px;
   padding-top: 11px;
   padding-bottom: 12px;
 }
@@ -7983,7 +7988,7 @@ header .header-top-bar .header-top-bar-search{
   height: 27px;
   background-image: url(assets/images/head-icon.svg);
   background-size: 20.41px 27px;
-  margin-right: 13.59px;
+  margin-right: 12px;
 }
 header .header-top-bar,
 header .header-top-bar .header-top-bar-item,
@@ -8000,7 +8005,7 @@ header .header-top-bar .header-top-bar-text span{
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 21px;
   color: #B5B9BC;
 }
 header .header-top-bar .header-top-bar-text a{
@@ -8012,17 +8017,39 @@ header .header-top-bar .header-top-bar-text a{
   color: #B5B9BC;
 }
 header .header-top-bar .header-top-bar-text span i{
-  margin-left: 6.5px;
-  margin-right: 8.5px;
+  margin-left: 12px;
+  margin-right: 17px;
 }
 header .header-top-bar .header-top-bar-text a._top-bar-phone i{
-  margin-left: 15px;
-}
-header .header-top-bar .header-top-bar-text a._top-bar-email{
-  margin-left: 23px;
+  margin-left: 14px;
+  margin-right: 12px;
 }
 
 
+header .header-top-bar .header-socials{
+  display: flex;
+  margin-left: 25px;
+}
+header .header-top-bar .header-socials .vk{
+  width: 26px;
+  height: 25px;
+  background-image: url(assets/images/social.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 8px;
+}
+header .header-top-bar .header-socials .fb{
+  width: 26px;
+  height: 25px;
+  background-image: url(assets/images/social.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -66px 0;
+}
+
+header .header-top-bar .header-top-bar-item.top-header-links{
+  margin-left: 29px;
+}
 header .header-top-bar .header-top-bar-item.top-header-links a{
   display: flex;
   align-items: center;
@@ -8034,8 +8061,8 @@ header .header-top-bar .header-top-bar-item.top-header-links a{
   color: #153AB2;
 }
 header .header-top-bar .header-top-bar-item.top-header-links i{
-  margin-left: 21px;
-  margin-right: 22px;
+  margin-left: 14px;
+  margin-right: 14px;
   transform: rotate(90deg);
   width: 21px;
 }
@@ -8113,6 +8140,7 @@ header .header-menu-type-wrapper .thick-line-separator{
   max-width: 1311px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 28px;
 }
 .contact-prefooter-wrapper h3{
   font-family: "Exo 2";
@@ -8141,6 +8169,11 @@ header .header-menu-type-wrapper .thick-line-separator{
 .contact-prefooter-info .contact-prefooter-item:last-child{
   margin-right: 0;
 }
+.contact-prefooter-info .contact-prefooter-item .contact-prefooter-item-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .contact-prefooter-info .contact-prefooter-item .contact-prefooter-item-content span{
   display: block;
   font-family: "Exo 2";
@@ -8159,8 +8192,9 @@ header .header-menu-type-wrapper .thick-line-separator{
   line-height: 18px;
   color: #414A5E;
 }
-.contact-prefooter-info .contact-prefooter-item .cpi-image img{
-  max-width: none;
+.contact-prefooter-info .contact-prefooter-item .cpi-image{
+  display: flex;
+  align-items: center;
 }
 .contact-prefooter-info .contact-prefooter-item .contact-prefooter-item-content .cpi-description p{ padding: 0; }
 
