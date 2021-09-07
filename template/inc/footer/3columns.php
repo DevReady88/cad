@@ -12,6 +12,14 @@
 		</div>
 	</div>
 	<div class="footer-widget-3">
+		<h3 class="widgettitle">Контакты</h3>
+		<div class="_scheme">
+			<a href="#">Схема проезда</a>
+			<div class="social-footer">
+				<a class="vk" href="#"></a>
+				<a class="fb" href="#"></a>
+			</div>
+		</div>
 		<?php if ( is_active_sidebar( 'fsidebar-4' ) ) : dynamic_sidebar( 'fsidebar-4' ); endif; ?>
 	</div>
 </div>
