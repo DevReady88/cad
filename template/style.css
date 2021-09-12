@@ -8135,6 +8135,13 @@ header .header-menu-type-wrapper .thick-line-separator{
     height:  0;
 }
 
+
+/*sidebar*/
+.sidebar .widget_nav_menu .sub-menu{
+  display: none;
+}
+
+
 /*main*/
 .contact-prefooter-wrapper{
   max-width: 1311px;
