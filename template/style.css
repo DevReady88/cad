@@ -7964,6 +7964,17 @@ ul.nav-tabs li a:hover:before {
     margin: 22px 0 40px 0;
 }
 
+/*global*/
+.page-content h1{
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #153AB2;
+}
+
 header .header-grid{
   display: flex;
   justify-content: space-between;
