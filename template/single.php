@@ -52,7 +52,7 @@
 						<div class="next-posts"><?php previous_post_link( '%link <i class="icon icon-Arrow-Right"></i>' ); ?></div>
 					</div>
 				
-					<?php comments_template(); ?>
+					<?php /*comments_template();*/ ?>
 					
 
 				<?php endwhile;

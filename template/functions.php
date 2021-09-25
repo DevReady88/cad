@@ -171,6 +171,41 @@ function mediaconsult_admin_style() {
 add_action( 'admin_enqueue_scripts', 'mediaconsult_admin_style' );
 
 
+/**
+ * ------------------------------------------------------------------------------------------------
+ * Disable emoji styles
+ * ------------------------------------------------------------------------------------------------
+ */
+
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
+/**
+ * ------------------------------------------------------------------------------------------------
+  * Allow SVG logo
+ * ------------------------------------------------------------------------------------------------
+ */
+
+if( ! function_exists( 'mediaconsult_upload_mimes' ) ) {
+	add_filter( 'upload_mimes', 'mediaconsult_upload_mimes', 100, 1 );
+	function mediaconsult_upload_mimes( $mimes ) {
+		
+		$mimes['svg'] = 'image/svg+xml';
+		$mimes['svgz'] = 'image/svg+xml';
+		
+		$mimes['woff'] = 'font/woff';
+		$mimes['woff2'] = 'font/woff2';
+		$mimes['ttf'] = 'font/ttf';
+		$mimes['eot'] = 'font/eot';
+		$mimes['svg'] = 'font/svg';
+		$mimes['woff'] = 'application/x-font-woff';
+		$mimes['woff2'] = 'application/x-font-woff2';
+		$mimes['ttf'] = 'application/x-font-ttf';
+		$mimes['ttf'] = 'font/sfnt';
+		$mimes['eot'] = 'application/vnd.ms-fontobject';
+		return $mimes;
+	}
+}
+
 
 
 

@@ -14,7 +14,7 @@
 	<div class="footer-widget-3">
 		<h3 class="widgettitle">Контакты</h3>
 		<div class="_scheme">
-			<a href="#">Схема проезда</a>
+			<a href="/sites/center/contact-us/">Схема проезда</a>
 			<div class="social-footer">
 				<a class="vk" href="#"></a>
 				<a class="fb" href="#"></a>

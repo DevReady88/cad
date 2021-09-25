@@ -38,7 +38,7 @@
 								the_content();
 
 								wp_link_pages( array(
-									'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'mediaconsult' ),
+									'before' => '<div class="page-links">' . esc_html__( 'Страницы:', 'mediaconsult' ),
 									'after'  => '</div>',
 								) ); 							
 
@@ -79,7 +79,7 @@
 					  	the_content();
 
 							wp_link_pages( array(
-								'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'mediaconsult' ),
+								'before' => '<div class="page-links">' . esc_html__( 'Страницы:', 'mediaconsult' ),
 								'after'  => '</div>',
 							) ); 							
 
@@ -99,6 +99,8 @@
 			if( is_front_page() ){ ?>
 
 				<div class="contact-prefooter-wrapper">
+
+					<hr/>
 					
 					<h3>Контактная информация</h3>
 
@@ -128,7 +130,7 @@
 									<p>Павлова, д. 122</p>
 								</div>
 							</div>
-							<div class="cpi-image">
+							<div class="cpi-image circle">
 								<svg width="69" height="93" viewBox="0 0 69 93" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M66.5 35.6355C66.5 49.5868 58.3402 63.3572 49.8086 73.873C45.5822 79.0824 41.3497 83.3896 38.1728 86.3944C36.6713 87.8144 35.4093 88.9402 34.5 89.7292C33.5907 88.9402 32.3287 87.8144 30.8272 86.3944C27.6503 83.3896 23.4178 79.0824 19.1914 73.873C10.6598 63.3572 2.5 49.5868 2.5 35.6355C2.5 17.2583 16.9026 2.5 34.5 2.5C52.0974 2.5 66.5 17.2583 66.5 35.6355Z" stroke="#B5B9BC" stroke-width="5"/>
 								<circle cx="34.5" cy="32.5" r="12" stroke="#B5B9BC" stroke-width="5"/>
@@ -152,7 +154,7 @@
 							</div>
 						</div>
 						<div class="contact-prefooter-item">
-							<div class="contact-prefooter-item-content">
+							<a href="/sites/center/contact-us"><div class="contact-prefooter-item-content">
 								<span>Схема проезда</span>
 							</div>
 							<div class="cpi-image">
@@ -164,7 +166,7 @@
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M32.0078 75.1055C33.1051 75.1055 34 75.9996 34 77.0977C34 78.1949 33.1051 79.0898 32.0078 79.0898C30.9106 79.0898 30.0156 78.1949 30.0156 77.0977C30.0156 75.9996 30.9106 75.1055 32.0078 75.1055Z" fill="#B5B9BC"/>
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M43.1289 56.1211C42.0316 56.1211 41.1367 55.2262 41.1367 54.1289C41.1367 53.0316 42.0316 52.1367 43.1289 52.1367C44.2262 52.1367 45.1211 53.0316 45.1211 54.1289C45.1211 55.2262 44.2262 56.1211 43.1289 56.1211Z" fill="#B5B9BC"/>
 								</svg>
-							</div>
+							</div></a>
 						</div>
 					</div>
 
